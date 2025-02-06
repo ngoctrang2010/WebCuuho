@@ -15,12 +15,9 @@ public partial class CuuhoWebContext : DbContext
     {
     }
 
-
     public virtual DbSet<BaiViet> BaiViets { get; set; }
 
     public virtual DbSet<DichVu> DichVus { get; set; }
-
-    public virtual DbSet<HinhAnh> HinhAnhs { get; set; }
 
     public virtual DbSet<LienHe> LienHes { get; set; }
 
@@ -36,6 +33,7 @@ public partial class CuuhoWebContext : DbContext
 
             entity.ToTable("BaiViet");
 
+            entity.Property(e => e.IsTintuc).HasColumnName("isTintuc");
             entity.Property(e => e.Ngaytao).HasColumnType("datetime");
 
             entity.HasOne(d => d.IdDichvuNavigation).WithMany(p => p.BaiViets)
@@ -50,20 +48,6 @@ public partial class CuuhoWebContext : DbContext
             entity.ToTable("DichVu");
         });
 
-        modelBuilder.Entity<HinhAnh>(entity =>
-        {
-            entity.HasKey(e => e.IdHinhanh);
-
-            entity.ToTable("HinhAnh");
-
-            entity.Property(e => e.TenHinhanh).HasMaxLength(200);
-
-            entity.HasOne(d => d.IdBvTtNavigation).WithMany(p => p.HinhAnhs)
-                .HasForeignKey(d => d.IdBvTt)
-                .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK_HinhAnh_BaiViet");
-        });
-
         modelBuilder.Entity<LienHe>(entity =>
         {
             entity.HasKey(e => e.IdLienhe);
@@ -71,6 +55,7 @@ public partial class CuuhoWebContext : DbContext
             entity.ToTable("LienHe");
 
             entity.Property(e => e.Diachi).HasMaxLength(250);
+            entity.Property(e => e.Ngaytao).HasColumnType("datetime");
             entity.Property(e => e.Sdt)
                 .HasMaxLength(10)
                 .IsFixedLength()

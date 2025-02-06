@@ -16,4 +16,8 @@ public partial class LienHe
     public string Chude { get; set; } = null!;
 
     public string Noidung { get; set; } = null!;
+
+    public bool Hoanthanh { get; set; }
+
+    public DateTime Ngaytao { get; set; }
 }
