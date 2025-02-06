@@ -15,7 +15,7 @@ public partial class BaiViet
 
     public int? IdDichvu { get; set; }
 
-    public virtual ICollection<HinhAnh> HinhAnhs { get; set; } = new List<HinhAnh>();
+    public bool IsTintuc { get; set; }
 
     public virtual DichVu? IdDichvuNavigation { get; set; }
 }
