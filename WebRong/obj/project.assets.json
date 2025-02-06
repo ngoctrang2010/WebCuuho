@@ -5156,11 +5156,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Source\\WebCuuHo\\WebRong\\WebRong\\WebRong.csproj",
+      "projectUniqueName": "D:\\Github\\WebCuuho\\WebRong\\WebRong.csproj",
       "projectName": "WebRong",
-      "projectPath": "D:\\Source\\WebCuuHo\\WebRong\\WebRong\\WebRong.csproj",
+      "projectPath": "D:\\Github\\WebCuuho\\WebRong\\WebRong.csproj",
       "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
-      "outputPath": "D:\\Source\\WebCuuHo\\WebRong\\WebRong\\obj\\",
+      "outputPath": "D:\\Github\\WebCuuho\\WebRong\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Dz5ptXrltY6En3xIqgnla31vkpeEaGMLCVQC4PcTkQPVs905kH85lQ5olhvhLD68ZBADJ4v3AT5ZrHop4HDfww==",
+  "dgSpecHash": "HhXJ7VYLXt+rXHejYHcK0klrzbuHk6ooSwBJeQ+iiM0vQ5InZHWPd3LbjYaSxWlvvr7xbVbsCuIr8fyKMM80lg==",
   "success": true,
-  "projectFilePath": "D:\\Source\\WebCuuHo\\WebRong\\WebRong\\WebRong.csproj",
+  "projectFilePath": "D:\\Github\\WebCuuho\\WebRong\\WebRong.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ACER\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\ACER\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

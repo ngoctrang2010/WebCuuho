@@ -17,15 +17,15 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = WebRong
 build_property.RootNamespace = WebRong
-build_property.ProjectDir = D:\Source\WebCuuHo\WebRong\WebRong\
+build_property.ProjectDir = D:\Github\WebCuuho\WebRong\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Source\WebCuuHo\WebRong\WebRong
+build_property.MSBuildProjectDirectory = D:\Github\WebCuuho\WebRong
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Source/WebCuuHo/WebRong/WebRong/Views/User/Index.cshtml]
+[D:/Github/WebCuuho/WebRong/Views/User/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
