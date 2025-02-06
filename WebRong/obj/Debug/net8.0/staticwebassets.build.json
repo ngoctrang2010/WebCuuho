@@ -1,11 +1,12 @@
 {
   "Version": 1,
-  "Hash": "rVjb4xMCKM1jLRehwvmsjv4dhE7nSoLI/y94mMg/udc=",
+  "Hash": "N4nXKOl7zhVbh7hObv7rW/bKQaQ0ec6EBVNONKhbF80=",
   "Source": "WebRong",
   "BasePath": "_content/WebRong",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }

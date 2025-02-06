@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "D:\\WebCuuho\\WebCuuho\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B2A2B28B-06B3-42D3-9592-5DDC5F25BBBE}|WebRong\\WebRong.csproj|d:\\webcuuho\\webcuuho\\webrong\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B2A2B28B-06B3-42D3-9592-5DDC5F25BBBE}|WebRong\\WebRong.csproj|solutionrelative:webrong\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B2A2B28B-06B3-42D3-9592-5DDC5F25BBBE}|WebRong\\WebRong.csproj|d:\\webcuuho\\webcuuho\\webrong\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B2A2B28B-06B3-42D3-9592-5DDC5F25BBBE}|WebRong\\WebRong.csproj|solutionrelative:webrong\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -29,6 +25,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{B2A2B28B-06B3-42D3-9592-5DDC5F25BBBE}|WebRong\\WebRong.csproj|d:\\webcuuho\\webcuuho\\webrong\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B2A2B28B-06B3-42D3-9592-5DDC5F25BBBE}|WebRong\\WebRong.csproj|solutionrelative:webrong\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A2B28B-06B3-42D3-9592-5DDC5F25BBBE}|WebRong\\WebRong.csproj|d:\\webcuuho\\webcuuho\\webrong\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B2A2B28B-06B3-42D3-9592-5DDC5F25BBBE}|WebRong\\WebRong.csproj|solutionrelative:webrong\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B2A2B28B-06B3-42D3-9592-5DDC5F25BBBE}|WebRong\\WebRong.csproj|d:\\webcuuho\\webcuuho\\webrong\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -62,11 +62,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "AdminController.cs",
               "DocumentMoniker": "D:\\WebCuuho\\WebCuuho\\WebRong\\Controllers\\AdminController.cs",
               "RelativeDocumentMoniker": "WebRong\\Controllers\\AdminController.cs",
@@ -79,7 +79,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "EFBaivietRepository.cs",
               "DocumentMoniker": "D:\\WebCuuho\\WebCuuho\\WebRong\\Repository\\EFBaivietRepository.cs",
               "RelativeDocumentMoniker": "WebRong\\Repository\\EFBaivietRepository.cs",
@@ -104,7 +104,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "UserController.cs",
               "DocumentMoniker": "D:\\WebCuuho\\WebCuuho\\WebRong\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "WebRong\\Controllers\\UserController.cs",
@@ -117,20 +117,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\WebCuuho\\WebCuuho\\WebRong\\Views\\User\\Index.cshtml",
               "RelativeDocumentMoniker": "WebRong\\Views\\User\\Index.cshtml",
               "ToolTip": "D:\\WebCuuho\\WebCuuho\\WebRong\\Views\\User\\Index.cshtml",
               "RelativeToolTip": "WebRong\\Views\\User\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAnAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-06T09:36:38.743Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-06T09:36:38.743Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "CuuhoWebContext.cs",
               "DocumentMoniker": "D:\\WebCuuho\\WebCuuho\\WebRong\\Models\\CuuhoWebContext.cs",
               "RelativeDocumentMoniker": "WebRong\\Models\\CuuhoWebContext.cs",
@@ -143,7 +142,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "IBaivietRepository.cs",
               "DocumentMoniker": "D:\\WebCuuho\\WebCuuho\\WebRong\\Repository\\IBaivietRepository.cs",
               "RelativeDocumentMoniker": "WebRong\\Repository\\IBaivietRepository.cs",
@@ -156,7 +155,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\WebCuuho\\WebCuuho\\WebRong\\Views\\Admin\\Index.cshtml",
               "RelativeDocumentMoniker": "WebRong\\Views\\Admin\\Index.cshtml",
