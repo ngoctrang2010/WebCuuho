@@ -1,0 +1,85 @@
+﻿using System;
+using System.Collections.Generic;
+using Microsoft.EntityFrameworkCore;
+
+namespace WebRong.Models;
+
+public partial class CuuhoWebContext : DbContext
+{
+    public CuuhoWebContext()
+    {
+    }
+
+    public CuuhoWebContext(DbContextOptions<CuuhoWebContext> options)
+        : base(options)
+    {
+    }
+
+
+    public virtual DbSet<BaiViet> BaiViets { get; set; }
+
+    public virtual DbSet<DichVu> DichVus { get; set; }
+
+    public virtual DbSet<HinhAnh> HinhAnhs { get; set; }
+
+    public virtual DbSet<LienHe> LienHes { get; set; }
+
+    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
+        => optionsBuilder.UseSqlServer("Data Source=192.168.1.10,2010;Initial Catalog=Cuuho_Web;User ID=cuuho;Password=cuuho123;Connect Timeout=30;Encrypt=False;Trust Server Certificate=False;Application Intent=ReadWrite;Multi Subnet Failover=False");
+
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
+    {
+        modelBuilder.Entity<BaiViet>(entity =>
+        {
+            entity.HasKey(e => e.IdBaiviet);
+
+            entity.ToTable("BaiViet");
+
+            entity.Property(e => e.Ngaytao).HasColumnType("datetime");
+
+            entity.HasOne(d => d.IdDichvuNavigation).WithMany(p => p.BaiViets)
+                .HasForeignKey(d => d.IdDichvu)
+                .HasConstraintName("FK_BaiViet_DichVu");
+        });
+
+        modelBuilder.Entity<DichVu>(entity =>
+        {
+            entity.HasKey(e => e.IdDichvu);
+
+            entity.ToTable("DichVu");
+        });
+
+        modelBuilder.Entity<HinhAnh>(entity =>
+        {
+            entity.HasKey(e => e.IdHinhanh);
+
+            entity.ToTable("HinhAnh");
+
+            entity.Property(e => e.TenHinhanh).HasMaxLength(200);
+
+            entity.HasOne(d => d.IdBvTtNavigation).WithMany(p => p.HinhAnhs)
+                .HasForeignKey(d => d.IdBvTt)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK_HinhAnh_BaiViet");
+        });
+
+        modelBuilder.Entity<LienHe>(entity =>
+        {
+            entity.HasKey(e => e.IdLienhe);
+
+            entity.ToTable("LienHe");
+
+            entity.Property(e => e.Diachi).HasMaxLength(250);
+            entity.Property(e => e.Sdt)
+                .HasMaxLength(10)
+                .IsFixedLength()
+                .HasColumnName("SDT");
+            entity.Property(e => e.Ten).HasMaxLength(150);
+        });
+
+        OnModelCreatingPartial(modelBuilder);
+    }
+
+    partial void OnModelCreatingPartial(ModelBuilder modelBuilder);
+}
