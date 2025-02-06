@@ -3,44 +3,52 @@
   "WorkspaceRootPath": "D:\\Github\\WebCuuho\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B2A2B28B-06B3-42D3-9592-5DDC5F25BBBE}|WebRong\\WebRong.csproj|d:\\github\\webcuuho\\webrong\\repository\\ibaivietrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2A2B28B-06B3-42D3-9592-5DDC5F25BBBE}|WebRong\\WebRong.csproj|solutionrelative:webrong\\repository\\ibaivietrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B2A2B28B-06B3-42D3-9592-5DDC5F25BBBE}|WebRong\\WebRong.csproj|d:\\github\\webcuuho\\webrong\\repository\\efbaivietrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B2A2B28B-06B3-42D3-9592-5DDC5F25BBBE}|WebRong\\WebRong.csproj|solutionrelative:webrong\\repository\\efbaivietrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B2A2B28B-06B3-42D3-9592-5DDC5F25BBBE}|WebRong\\WebRong.csproj|d:\\github\\webcuuho\\webrong\\models\\cuuhowebcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2A2B28B-06B3-42D3-9592-5DDC5F25BBBE}|WebRong\\WebRong.csproj|solutionrelative:webrong\\models\\cuuhowebcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B2A2B28B-06B3-42D3-9592-5DDC5F25BBBE}|WebRong\\WebRong.csproj|d:\\github\\webcuuho\\webrong\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B2A2B28B-06B3-42D3-9592-5DDC5F25BBBE}|WebRong\\WebRong.csproj|solutionrelative:webrong\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B2A2B28B-06B3-42D3-9592-5DDC5F25BBBE}|WebRong\\WebRong.csproj|d:\\github\\webcuuho\\webrong\\repository\\efdichvurepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2A2B28B-06B3-42D3-9592-5DDC5F25BBBE}|WebRong\\WebRong.csproj|solutionrelative:webrong\\repository\\efdichvurepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2A2B28B-06B3-42D3-9592-5DDC5F25BBBE}|WebRong\\WebRong.csproj|d:\\github\\webcuuho\\webrong\\repository\\eflienherepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2A2B28B-06B3-42D3-9592-5DDC5F25BBBE}|WebRong\\WebRong.csproj|solutionrelative:webrong\\repository\\eflienherepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2A2B28B-06B3-42D3-9592-5DDC5F25BBBE}|WebRong\\WebRong.csproj|d:\\github\\webcuuho\\webrong\\repository\\ilienherepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2A2B28B-06B3-42D3-9592-5DDC5F25BBBE}|WebRong\\WebRong.csproj|solutionrelative:webrong\\repository\\ilienherepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2A2B28B-06B3-42D3-9592-5DDC5F25BBBE}|WebRong\\WebRong.csproj|d:\\github\\webcuuho\\webrong\\repository\\idichvurepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2A2B28B-06B3-42D3-9592-5DDC5F25BBBE}|WebRong\\WebRong.csproj|solutionrelative:webrong\\repository\\idichvurepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B2A2B28B-06B3-42D3-9592-5DDC5F25BBBE}|WebRong\\WebRong.csproj|d:\\github\\webcuuho\\webrong\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B2A2B28B-06B3-42D3-9592-5DDC5F25BBBE}|WebRong\\WebRong.csproj|solutionrelative:webrong\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B2A2B28B-06B3-42D3-9592-5DDC5F25BBBE}|WebRong\\WebRong.csproj|d:\\github\\webcuuho\\webrong\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B2A2B28B-06B3-42D3-9592-5DDC5F25BBBE}|WebRong\\WebRong.csproj|solutionrelative:webrong\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B2A2B28B-06B3-42D3-9592-5DDC5F25BBBE}|WebRong\\WebRong.csproj|d:\\github\\webcuuho\\webrong\\webrong.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{B2A2B28B-06B3-42D3-9592-5DDC5F25BBBE}|WebRong\\WebRong.csproj|solutionrelative:webrong\\webrong.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+      "AbsoluteMoniker": "D:0:0:{B2A2B28B-06B3-42D3-9592-5DDC5F25BBBE}|WebRong\\WebRong.csproj|d:\\github\\webcuuho\\webrong\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2A2B28B-06B3-42D3-9592-5DDC5F25BBBE}|WebRong\\WebRong.csproj|solutionrelative:webrong\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B2A2B28B-06B3-42D3-9592-5DDC5F25BBBE}|WebRong\\WebRong.csproj|d:\\github\\webcuuho\\webrong\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B2A2B28B-06B3-42D3-9592-5DDC5F25BBBE}|WebRong\\WebRong.csproj|solutionrelative:webrong\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{B2A2B28B-06B3-42D3-9592-5DDC5F25BBBE}|WebRong\\WebRong.csproj|d:\\github\\webcuuho\\webrong\\models\\cuuhowebcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2A2B28B-06B3-42D3-9592-5DDC5F25BBBE}|WebRong\\WebRong.csproj|solutionrelative:webrong\\models\\cuuhowebcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A2B28B-06B3-42D3-9592-5DDC5F25BBBE}|WebRong\\WebRong.csproj|d:\\github\\webcuuho\\webrong\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B2A2B28B-06B3-42D3-9592-5DDC5F25BBBE}|WebRong\\WebRong.csproj|solutionrelative:webrong\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A2B28B-06B3-42D3-9592-5DDC5F25BBBE}|WebRong\\WebRong.csproj|d:\\github\\webcuuho\\webrong\\repository\\idichvurepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2A2B28B-06B3-42D3-9592-5DDC5F25BBBE}|WebRong\\WebRong.csproj|solutionrelative:webrong\\repository\\idichvurepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A2B28B-06B3-42D3-9592-5DDC5F25BBBE}|WebRong\\WebRong.csproj|d:\\github\\webcuuho\\webrong\\repository\\eflienherepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2A2B28B-06B3-42D3-9592-5DDC5F25BBBE}|WebRong\\WebRong.csproj|solutionrelative:webrong\\repository\\eflienherepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A2B28B-06B3-42D3-9592-5DDC5F25BBBE}|WebRong\\WebRong.csproj|d:\\github\\webcuuho\\webrong\\repository\\ibaivietrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2A2B28B-06B3-42D3-9592-5DDC5F25BBBE}|WebRong\\WebRong.csproj|solutionrelative:webrong\\repository\\ibaivietrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A2B28B-06B3-42D3-9592-5DDC5F25BBBE}|WebRong\\WebRong.csproj|d:\\github\\webcuuho\\webrong\\repository\\ilienherepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2A2B28B-06B3-42D3-9592-5DDC5F25BBBE}|WebRong\\WebRong.csproj|solutionrelative:webrong\\repository\\ilienherepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A2B28B-06B3-42D3-9592-5DDC5F25BBBE}|WebRong\\WebRong.csproj|d:\\github\\webcuuho\\webrong\\webrong.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{B2A2B28B-06B3-42D3-9592-5DDC5F25BBBE}|WebRong\\WebRong.csproj|solutionrelative:webrong\\webrong.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -70,7 +78,137 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Github\\WebCuuho\\WebRong\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebRong\\Views\\Admin\\Index.cshtml",
+              "ToolTip": "D:\\Github\\WebCuuho\\WebRong\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "WebRong\\Views\\Admin\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-06T11:35:56.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EFBaivietRepository.cs",
+              "DocumentMoniker": "D:\\Github\\WebCuuho\\WebRong\\Repository\\EFBaivietRepository.cs",
+              "RelativeDocumentMoniker": "WebRong\\Repository\\EFBaivietRepository.cs",
+              "ToolTip": "D:\\Github\\WebCuuho\\WebRong\\Repository\\EFBaivietRepository.cs",
+              "RelativeToolTip": "WebRong\\Repository\\EFBaivietRepository.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T09:43:05.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IDichvuRepository.cs",
+              "DocumentMoniker": "D:\\Github\\WebCuuho\\WebRong\\Repository\\IDichvuRepository.cs",
+              "RelativeDocumentMoniker": "WebRong\\Repository\\IDichvuRepository.cs",
+              "ToolTip": "D:\\Github\\WebCuuho\\WebRong\\Repository\\IDichvuRepository.cs",
+              "RelativeToolTip": "WebRong\\Repository\\IDichvuRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAcAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T10:06:47.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\Github\\WebCuuho\\WebRong\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "WebRong\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\Github\\WebCuuho\\WebRong\\Controllers\\UserController.cs",
+              "RelativeToolTip": "WebRong\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T09:38:50.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Github\\WebCuuho\\WebRong\\Views\\User\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebRong\\Views\\User\\Index.cshtml",
+              "ToolTip": "D:\\Github\\WebCuuho\\WebRong\\Views\\User\\Index.cshtml",
+              "RelativeToolTip": "WebRong\\Views\\User\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-06T09:36:38.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "CuuhoWebContext.cs",
+              "DocumentMoniker": "D:\\Github\\WebCuuho\\WebRong\\Models\\CuuhoWebContext.cs",
+              "RelativeDocumentMoniker": "WebRong\\Models\\CuuhoWebContext.cs",
+              "ToolTip": "D:\\Github\\WebCuuho\\WebRong\\Models\\CuuhoWebContext.cs",
+              "RelativeToolTip": "WebRong\\Models\\CuuhoWebContext.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAiwD8AAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T10:16:05.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Github\\WebCuuho\\WebRong\\Program.cs",
+              "RelativeDocumentMoniker": "WebRong\\Program.cs",
+              "ToolTip": "D:\\Github\\WebCuuho\\WebRong\\Program.cs",
+              "RelativeToolTip": "WebRong\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T11:13:14.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EFLienheRepository.cs",
+              "DocumentMoniker": "D:\\Github\\WebCuuho\\WebRong\\Repository\\EFLienheRepository.cs",
+              "RelativeDocumentMoniker": "WebRong\\Repository\\EFLienheRepository.cs",
+              "ToolTip": "D:\\Github\\WebCuuho\\WebRong\\Repository\\EFLienheRepository.cs",
+              "RelativeToolTip": "WebRong\\Repository\\EFLienheRepository.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAkwCUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T09:57:59.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Github\\WebCuuho\\WebRong\\appsettings.json",
+              "RelativeDocumentMoniker": "WebRong\\appsettings.json",
+              "ToolTip": "D:\\Github\\WebCuuho\\WebRong\\appsettings.json",
+              "RelativeToolTip": "WebRong\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-06T11:22:41.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IBaivietRepository.cs",
+              "DocumentMoniker": "D:\\Github\\WebCuuho\\WebRong\\Repository\\IBaivietRepository.cs",
+              "RelativeDocumentMoniker": "WebRong\\Repository\\IBaivietRepository.cs",
+              "ToolTip": "D:\\Github\\WebCuuho\\WebRong\\Repository\\IBaivietRepository.cs",
+              "RelativeToolTip": "WebRong\\Repository\\IBaivietRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwBIAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T09:58:22.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "ILienheRepository.cs",
               "DocumentMoniker": "D:\\Github\\WebCuuho\\WebRong\\Repository\\ILienheRepository.cs",
               "RelativeDocumentMoniker": "WebRong\\Repository\\ILienheRepository.cs",
@@ -83,117 +221,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CuuhoWebContext.cs",
-              "DocumentMoniker": "D:\\Github\\WebCuuho\\WebRong\\Models\\CuuhoWebContext.cs",
-              "RelativeDocumentMoniker": "WebRong\\Models\\CuuhoWebContext.cs",
-              "ToolTip": "D:\\Github\\WebCuuho\\WebRong\\Models\\CuuhoWebContext.cs",
-              "RelativeToolTip": "WebRong\\Models\\CuuhoWebContext.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAwBIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T10:16:05.767Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "EFLienheRepository.cs",
-              "DocumentMoniker": "D:\\Github\\WebCuuho\\WebRong\\Repository\\EFLienheRepository.cs",
-              "RelativeDocumentMoniker": "WebRong\\Repository\\EFLienheRepository.cs",
-              "ToolTip": "D:\\Github\\WebCuuho\\WebRong\\Repository\\EFLienheRepository.cs",
-              "RelativeToolTip": "WebRong\\Repository\\EFLienheRepository.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAA7wCUAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T09:57:59.672Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "EFBaivietRepository.cs",
-              "DocumentMoniker": "D:\\Github\\WebCuuho\\WebRong\\Repository\\EFBaivietRepository.cs",
-              "RelativeDocumentMoniker": "WebRong\\Repository\\EFBaivietRepository.cs",
-              "ToolTip": "D:\\Github\\WebCuuho\\WebRong\\Repository\\EFBaivietRepository.cs",
-              "RelativeToolTip": "WebRong\\Repository\\EFBaivietRepository.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAcwCEAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T09:43:05.903Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "EFDichvuRepository.cs",
-              "DocumentMoniker": "D:\\Github\\WebCuuho\\WebRong\\Repository\\EFDichvuRepository.cs",
-              "RelativeDocumentMoniker": "WebRong\\Repository\\EFDichvuRepository.cs",
-              "ToolTip": "D:\\Github\\WebCuuho\\WebRong\\Repository\\EFDichvuRepository.cs",
-              "RelativeToolTip": "WebRong\\Repository\\EFDichvuRepository.cs",
-              "ViewState": "AQIAAB8AAAAAAAAAAAAkwDIAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T09:57:51.277Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "IBaivietRepository.cs",
-              "DocumentMoniker": "D:\\Github\\WebCuuho\\WebRong\\Repository\\IBaivietRepository.cs",
-              "RelativeDocumentMoniker": "WebRong\\Repository\\IBaivietRepository.cs",
-              "ToolTip": "D:\\Github\\WebCuuho\\WebRong\\Repository\\IBaivietRepository.cs",
-              "RelativeToolTip": "WebRong\\Repository\\IBaivietRepository.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T09:58:22.102Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IDichvuRepository.cs",
-              "DocumentMoniker": "D:\\Github\\WebCuuho\\WebRong\\Repository\\IDichvuRepository.cs",
-              "RelativeDocumentMoniker": "WebRong\\Repository\\IDichvuRepository.cs",
-              "ToolTip": "D:\\Github\\WebCuuho\\WebRong\\Repository\\IDichvuRepository.cs",
-              "RelativeToolTip": "WebRong\\Repository\\IDichvuRepository.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAxwA0AAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T10:06:47.522Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "D:\\Github\\WebCuuho\\WebRong\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "WebRong\\Controllers\\UserController.cs",
-              "ToolTip": "D:\\Github\\WebCuuho\\WebRong\\Controllers\\UserController.cs",
-              "RelativeToolTip": "WebRong\\Controllers\\UserController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T09:38:50.487Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "WebRong",
               "DocumentMoniker": "D:\\Github\\WebCuuho\\WebRong\\WebRong.csproj",
               "RelativeDocumentMoniker": "WebRong\\WebRong.csproj",
               "ToolTip": "D:\\Github\\WebCuuho\\WebRong\\WebRong.csproj",
               "RelativeToolTip": "WebRong\\WebRong.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-02-06T09:38:46.905Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Github\\WebCuuho\\WebRong\\Views\\User\\Index.cshtml",
-              "RelativeDocumentMoniker": "WebRong\\Views\\User\\Index.cshtml",
-              "ToolTip": "D:\\Github\\WebCuuho\\WebRong\\Views\\User\\Index.cshtml",
-              "RelativeToolTip": "WebRong\\Views\\User\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-06T09:36:38.743Z"
+              "WhenOpened": "2025-02-06T09:38:46.905Z",
+              "EditorCaption": ""
             }
           ]
         }
