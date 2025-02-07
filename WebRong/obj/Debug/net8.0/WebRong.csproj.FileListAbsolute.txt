@@ -566,3 +566,4 @@ D:\WebCuuho\WebCuuho\WebRong\obj\Debug\net8.0\refint\WebRong.dll
 D:\WebCuuho\WebCuuho\WebRong\obj\Debug\net8.0\WebRong.pdb
 D:\WebCuuho\WebCuuho\WebRong\obj\Debug\net8.0\WebRong.genruntimeconfig.cache
 D:\WebCuuho\WebCuuho\WebRong\obj\Debug\net8.0\ref\WebRong.dll
+D:\WebCuuho\WebCuuho\WebRong\bin\Debug\net8.0\WebRong.staticwebassets.runtime.json
