@@ -25,5 +25,70 @@ namespace WebRong.Controllers
 
             return View(); 
         }
+        public async Task<IActionResult> about()
+        {
+
+            var baiviet = await _BaivietRepository.GetallBaiviet();
+            var tintuc = await _BaivietRepository.GetallTintuc();
+            var dichvu = await _DichvuRepository.GetallDichvu();
+
+            ViewBag.Baiviet = baiviet;
+            ViewBag.Tintuc = tintuc;
+            ViewBag.Dichvu = dichvu;
+
+            return View();
+        }
+        public async Task<IActionResult> contact()
+        {
+
+            var baiviet = await _BaivietRepository.GetallBaiviet();
+            var tintuc = await _BaivietRepository.GetallTintuc();
+            var dichvu = await _DichvuRepository.GetallDichvu();
+
+            ViewBag.Baiviet = baiviet;
+            ViewBag.Tintuc = tintuc;
+            ViewBag.Dichvu = dichvu;
+
+            return View();
+        }
+        public async Task<IActionResult> project()
+        {
+
+            var baiviet = await _BaivietRepository.GetallBaiviet();
+            var tintuc = await _BaivietRepository.GetallTintuc();
+            var dichvu = await _DichvuRepository.GetallDichvu();
+
+            ViewBag.Baiviet = baiviet;
+            ViewBag.Tintuc = tintuc;
+            ViewBag.Dichvu = dichvu;
+
+            return View();
+        }
+        public async Task<IActionResult> service()
+        {
+
+            var baiviet = await _BaivietRepository.GetallBaiviet();
+            var tintuc = await _BaivietRepository.GetallTintuc();
+            var dichvu = await _DichvuRepository.GetallDichvu();
+
+            ViewBag.Baiviet = baiviet;
+            ViewBag.Tintuc = tintuc;
+            ViewBag.Dichvu = dichvu;
+
+            return View();
+        }
+        public async Task<IActionResult> testimonial()
+        {
+
+            var baiviet = await _BaivietRepository.GetallBaiviet();
+            var tintuc = await _BaivietRepository.GetallTintuc();
+            var dichvu = await _DichvuRepository.GetallDichvu();
+
+            ViewBag.Baiviet = baiviet;
+            ViewBag.Tintuc = tintuc;
+            ViewBag.Dichvu = dichvu;
+
+            return View();
+        }
     }
 }

@@ -36,10 +36,30 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/WebCuuho/WebCuuho/WebRong/Views/Shared/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WaWV3U3RhcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/WebCuuho/WebCuuho/WebRong/Views/User/about.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxhYm91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/WebCuuho/WebCuuho/WebRong/Views/User/contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxjb250YWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/WebCuuho/WebCuuho/WebRong/Views/User/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/WebCuuho/WebCuuho/WebRong/Views/User/project.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxwcm9qZWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/WebCuuho/WebCuuho/WebRong/Views/User/service.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxzZXJ2aWNlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/WebCuuho/WebCuuho/WebRong/Views/User/testimonial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclx0ZXN0aW1vbmlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

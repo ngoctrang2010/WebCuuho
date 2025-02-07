@@ -15,6 +15,7 @@ wwwroot\Content\images\flag-uk.png
 wwwroot\Content\images\instagram.jpg
 wwwroot\Content\images\logo.png
 wwwroot\Content\images\logo2.png
+wwwroot\Content\images\logoa.jpg
 wwwroot\Content\images\project1.jpg
 wwwroot\Content\images\project2.jpg
 wwwroot\Content\images\s1.png
