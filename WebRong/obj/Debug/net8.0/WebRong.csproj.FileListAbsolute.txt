@@ -567,3 +567,15 @@ D:\WebCuuho\WebCuuho\WebRong\obj\Debug\net8.0\WebRong.pdb
 D:\WebCuuho\WebCuuho\WebRong\obj\Debug\net8.0\WebRong.genruntimeconfig.cache
 D:\WebCuuho\WebCuuho\WebRong\obj\Debug\net8.0\ref\WebRong.dll
 D:\WebCuuho\WebCuuho\WebRong\bin\Debug\net8.0\WebRong.staticwebassets.runtime.json
+D:\Github\WebCuuho\WebRong\bin\Debug\net8.0\WebRong.staticwebassets.runtime.json
+D:\Github\WebCuuho\WebRong\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\Github\WebCuuho\WebRong\bin\Debug\net8.0\PagedList.dll
+D:\Github\WebCuuho\WebRong\bin\Debug\net8.0\PagedList.Mvc.dll
+D:\Github\WebCuuho\WebRong\bin\Debug\net8.0\System.Web.Mvc.dll
+D:\Github\WebCuuho\WebRong\bin\Debug\net8.0\System.Web.Razor.dll
+D:\Github\WebCuuho\WebRong\bin\Debug\net8.0\System.Web.Helpers.dll
+D:\Github\WebCuuho\WebRong\bin\Debug\net8.0\System.Web.WebPages.Deployment.dll
+D:\Github\WebCuuho\WebRong\bin\Debug\net8.0\System.Web.WebPages.Razor.dll
+D:\Github\WebCuuho\WebRong\bin\Debug\net8.0\System.Web.WebPages.dll
+D:\Github\WebCuuho\WebRong\bin\Debug\net8.0\Microsoft.Web.Infrastructure.dll
+D:\Github\WebCuuho\WebRong\bin\Debug\net8.0\PagedList.Core.dll

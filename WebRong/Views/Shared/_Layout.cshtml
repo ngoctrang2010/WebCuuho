@@ -2,445 +2,384 @@
 <html>
 
 <head>
-    <!-- Basic -->
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <!-- Mobile Metas -->
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <!-- Site Metas -->
-    <meta name="keywords" content="" />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
-    <title>Cứu Hộ 24/7</title>
-    <!-- bootstrap core css -->
+	<!-- Basic -->
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<!-- Mobile Metas -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+	<!-- Site Metas -->
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<meta name="author" content="" />
+	<title>Cứu Hộ 24/7</title>
+	<!-- bootstrap core css -->
 	<link href="~/content/css/bootstrap.css" rel="stylesheet" />
 
-    <!-- fonts style -->
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+	<!-- fonts style -->
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
 
-    <!--owl slider stylesheet -->
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+	<!--owl slider stylesheet -->
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
 
-    <!-- font awesome style -->
+	<!-- font awesome style -->
 	<link href="~/content/css/font-awesome.min.css" rel="stylesheet" />
-    <!-- Custom styles for this template -->
+	<!-- Custom styles for this template -->
 	<link href="~/content/css/style.css" rel="stylesheet" />
-    <!-- responsive style -->
+	<!-- responsive style -->
 	<link href="~/content/css/responsive.css" rel="stylesheet" />
+	<!-- Thêm Toastify CSS -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+
+	<!-- Thêm Toastify JS -->
+	<script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
 
 </head>
 
 <body>
-    <section class="header">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 mt-1 s1 md-2">
-                    <marquee direction="left" height="20" onmouseout="this.start()" scrollamount="3"
-                             onmouseover="this.stop()">
-                        <li style="list-style:none;display:inline-block;">
-                            <a title="Cửa hàng Thời trang YaMe xin kính chào quý khách,Năm hết tết đến kính chúc mọi người thật nhiều sức khoẻ, miệng cười vui vẻ, ... Kính chúc mọi người một năm mới tràn đầy niềm vui và hạnh phúc:"
-                               rel="dofollow" target="_self">
-                                <p><strong>Website Cứu hộ 247</strong> kính chào quý khách, chúc quý khách tìm được dịch vụ cứu hộ uy tín và chất lượng! Chúng tôi luôn sẵn sàng phục vụ quý khách 24/7.</p>
-                            </a>
-                        </li>
-                        <li style="list-style:none;display:inline-block"> </li>
-                    </marquee>
-                </div>
-            </div>
-        </div>
-    </section>
-  
-    <div class="hero_area">
-        <!-- header section strats -->
-<header class="header_section">
-    <div class="header_top">
-        <div class="container-fluid header_top_container">
-                    <div class="contact_nav" style="text-align: center;">
-                        <a href="">
-                    <i class="fa fa-phone" aria-hidden="true"></i>
-                    <span>
-                        Call : +0961.345.247
-                    </span>
-                </a>
-                <a href="">
-                    <i class="fa fa-envelope" aria-hidden="true"></i>
-                    <span>
-                        Email : ThieuNguyen@gmail.com
-                    </span>
-                </a>
-                <a href="">
-                    <i class="fa fa-map-marker" aria-hidden="true"></i>
-                    <span>
-                        247 Đồng Nai
-                    </span>
-                </a>
-            </div>
-            <div class="social_box">
-                <a href="https://www.facebook.com/I.Am.Nguyen2003">
-                    <i class="fa fa-facebook" aria-hidden="true"></i>
-                </a>
-                <a href="">
-                    <i class="fa fa-twitter" aria-hidden="true"></i>
-                </a>
-                <a href="">
-                    <i class="fa fa-linkedin" aria-hidden="true"></i>
-                </a>
-                <a href="">
-                    <i class="fa fa-instagram" aria-hidden="true"></i>
-                </a>
-            </div>
-        </div>
-    </div>
-    <div class="header_bottom">
-        <div class="container-fluid">
-            <nav class="navbar navbar-expand-lg custom_nav-container ">
-             
-                        <a class="navbar-brand" href="/">
-                            <img src="~/content/images/logoa.jpg" alt="Logo" style="height: 54px; width: auto;">
-                        </a>
+	@if (TempData["Message"] != null)
+	{
+		var message = TempData["Message"].ToString();
+		var messageType = TempData["MessageType"]?.ToString();
 
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class=""> </span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav  ">
-                        <li class="nav-item active1">
-                            <a class="nav-link" href="http://localhost:5296/">TRANG CHỦ<span class="sr-only">(current)</span></a>
-                        </li>                      
-                        <li class="nav-item">
-                            <a class="nav-link" href="http://localhost:5296/User/service">DỊCH VỤ</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="http://localhost:5296/User/about">GIỚI THIỆU</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="http://localhost:5296/User/project">TIN TỨC</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="http://localhost:5296/User/testimonial">LỜI CHỨNG THỰC</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="http://localhost:5296/">LIÊN HỆ VỚI CHÚNG TÔI</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#"> ĐĂNG NHẬP</a>
-                        </li>
-                        <form class="form-inline">
-                            <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit">
-                                <i class="fa fa-search" aria-hidden="true"></i>
-                            </button>
-                        </form>
-                    </ul>
-                    <div class="quote_btn-container">
-                        <a href="" class="quote_btn">
-                            NHẬN GIÁ BÁO
-                        </a>
-                    </div>
-                </div>
-            </nav>
-        </div>
-    </div>
-</header>
+		<script>
+			document.addEventListener("DOMContentLoaded", function () {
+				Toastify({
+					text: "@Html.Raw(TempData["Message"])",
+					duration: 2000,
+					close: true,
+					gravity: "top",
+					position: "right",
+					backgroundColor: "@(TempData["MessageType"] != null && TempData["MessageType"].ToString() == "success" ? "linear-gradient(to right, #00b09b, #96c93d)" : "linear-gradient(to right, #ff5f6d, #ffc371)")",
+				}).showToast();
+			});
+		</script>
+	}
+	<section class="header">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 mt-1 s1 md-2">
+					<marquee direction="left" height="20" onmouseout="this.start()" scrollamount="3"
+							 onmouseover="this.stop()">
+						<li style="list-style:none;display:inline-block;">
 
-<style>
-.nav-item.active .nav-link {
-    background-color: black; /* Màu nền đen */
-    color: white; /* Màu chữ trắng */
-}
-</style>
+							<p><strong>Website Cứu hộ 247</strong> kính chào quý khách, chúc quý khách tìm được dịch vụ cứu hộ uy tín và chất lượng! Chúng tôi luôn sẵn sàng phục vụ quý khách 24/7.</p>
 
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script>
-    $(document).ready(function() {
-        $('.nav-item a').on('click', function() {
-            $('.nav-item').removeClass('active'); // Xóa lớp active khỏi tất cả các mục
-            $(this).parent().addClass('active'); // Thêm lớp active vào mục được nhấp
-        });
-    });
-</script>        <!-- end header section -->
-        <!-- slider section -->
-        <section class="slider_section ">
-            <div id="customCarousel1" class="carousel slide" data-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <div class="container ">
-                            <div class="row">
-                                <div class="col-md-10 mx-auto">
-                                    <div class="detail-box">
-                                        <h1>
-                                            ARCHITECT <br>
-                                            BUILDER CONSTRUCTION <br>
-                                            SERVICES
-                                        </h1>
-                                        <div class="btn-box">
-                                            <a href="" class="btn1">
-                                                Contact Us
-                                            </a>
-                                            <a href="" class="btn2">
-                                                About Us
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="container ">
-                            <div class="row">
-                                <div class="col-md-10 mx-auto">
-                                    <div class="detail-box">
-                                        <h1>
-                                            ARCHITECT <br>
-                                            BUILDER CONSTRUCTION <br>
-                                            SERVICES
-                                        </h1>
-                                        <div class="btn-box">
-                                            <a href="" class="btn1">
-                                                Contact Us
-                                            </a>
-                                            <a href="" class="btn2">
-                                                About Us
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="container ">
-                            <div class="row">
-                                <div class="col-md-10 mx-auto">
-                                    <div class="detail-box">
-                                        <h1>
-                                            ARCHITECT <br>
-                                            BUILDER CONSTRUCTION <br>
-                                            SERVICES
-                                        </h1>
-                                        <div class="btn-box">
-                                            <a href="" class="btn1">
-                                                Contact Us
-                                            </a>
-                                            <a href="" class="btn2">
-                                                About Us
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="container ">
-                            <div class="row">
-                                <div class="col-md-10 mx-auto">
-                                    <div class="detail-box">
-                                        <h1>
-                                            ARCHITECT <br>
-                                            BUILDER CONSTRUCTION <br>
-                                            SERVICES
-                                        </h1>
-                                        <div class="btn-box">
-                                            <a href="" class="btn1">
-                                                Contact Us
-                                            </a>
-                                            <a href="" class="btn2">
-                                                About Us
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="container ">
-                            <div class="row">
-                                <div class="col-md-10 mx-auto">
-                                    <div class="detail-box">
-                                        <h1>
-                                            ARCHITECT <br>
-                                            BUILDER CONSTRUCTION <br>
-                                            SERVICES
-                                        </h1>
-                                        <div class="btn-box">
-                                            <a href="" class="btn1">
-                                                Contact Us
-                                            </a>
-                                            <a href="" class="btn2">
-                                                About Us
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <ol class="carousel-indicators">
-                    <li data-target="#customCarousel1" data-slide-to="0" class="active"></li>
-                    <li data-target="#customCarousel1" data-slide-to="1"></li>
-                    <li data-target="#customCarousel1" data-slide-to="2"></li>
-                    <li data-target="#customCarousel1" data-slide-to="3"></li>
-                    <li data-target="#customCarousel1" data-slide-to="4"></li>
-                </ol>
-            </div>
+						</li>
+						<li style="list-style:none;display:inline-block"> </li>
+					</marquee>
+				</div>
+			</div>
+		</div>
+	</section>
 
-        </section>
-        <!-- end slider section -->
-    </div>
+	<div class="hero_area">
+		<!-- header section strats -->
+		<header class="header_section">
+			<div class="header_top">
+				<div class="container-fluid header_top_container">
+					<div class="contact_nav" style="text-align: center;">
+						<a href="">
+							<i class="fa fa-phone" aria-hidden="true"></i>
+							<span>
+								Call : +0961.345.247
+							</span>
+						</a>
+						<a href="">
+							<i class="fa fa-envelope" aria-hidden="true"></i>
+							<span>
+								Email : ThieuNguyen@gmail.com
+							</span>
+						</a>
+						<a href="">
+							<i class="fa fa-map-marker" aria-hidden="true"></i>
+							<span>
+								247 Đồng Nai
+							</span>
+						</a>
+					</div>
+					<div class="social_box">
+						<a href="https://www.facebook.com/I.Am.Nguyen2003">
+							<i class="fa fa-facebook" aria-hidden="true"></i>
+						</a>
+						<a href="">
+							<i class="fa fa-twitter" aria-hidden="true"></i>
+						</a>
+						<a href="">
+							<i class="fa fa-linkedin" aria-hidden="true"></i>
+						</a>
+						<a href="">
+							<i class="fa fa-instagram" aria-hidden="true"></i>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="header_bottom">
+				<div class="container-fluid">
+					<nav class="navbar navbar-expand-lg custom_nav-container ">
 
-    <div>
-        @RenderBody()
-    </div>
-  
+						<a class="navbar-brand" href="/">
+							<img src="~/content/images/logoa.jpg" alt="Logo" style="height: 54px; width: auto;">
+						</a>
+
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+							<span class=""> </span>
+						</button>
+						<div class="collapse navbar-collapse" id="navbarSupportedContent">
+							<ul class="navbar-nav  ">
+								<li class="nav-item @(Context.Request.Path == "/" ? "active" : "")">
+									<a class="nav-link" href="/">TRANG CHỦ</a>
+								</li>
+								<li class="nav-item @(Context.Request.Path == "/User/service" ? "active" : "")">
+									<a class="nav-link" href="/User/service">DỊCH VỤ</a>
+								</li>
+								<li class="nav-item @(Context.Request.Path == "/User/about" ? "active" : "")">
+									<a class="nav-link" href="/User/about">GIỚI THIỆU</a>
+								</li>
+								<li class="nav-item @(Context.Request.Path == "/User/testimonial" ? "active" : "")">
+									<a class="nav-link" href="/User/testimonial">LỜI CHỨNG THỰC</a>
+								</li>
+								<form class="form-inline">
+									<button class="btn  my-2 my-sm-0 nav_search-btn" type="submit">
+										<i class="fa fa-search" aria-hidden="true"></i>
+									</button>
+								</form>
+							</ul>
+							<div class="quote_btn-container">
+								<a href="" class="quote_btn">
+									NHẬN GIÁ BÁO
+								</a>
+							</div>
+						</div>
+					</nav>
+				</div>
+			</div>
+		</header>
+
+		<style>
+			.nav-item.active .nav-link {
+				background-color: black; /* Màu nền đen */
+				color: white; /* Màu chữ trắng */
+			}
+		</style>
+
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+		<script>
+			$(document).ready(function () {
+				$('.nav-item a').on('click', function () {
+					$('.nav-item').removeClass('active'); // Xóa lớp active khỏi tất cả các mục
+					$(this).parent().addClass('active'); // Thêm lớp active vào mục được nhấp
+				});
+			});
+		</script>        <!-- end header section -->
+		<!-- slider section -->
+		<section class="slider_section ">
+			<div id="customCarousel1" class="carousel slide" data-ride="carousel">
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<div class="container ">
+							<div class="row">
+								<div class="col-md-10 mx-auto">
+									<div class="detail-box">
+										<h1>
+											CỨU HỘ 24/7 <br>
+											NHANH CHÓNG - CHUYÊN NGHIỆP <br>
+										</h1>
+										<div class="btn-box">
+											<a href="http://localhost:5296/User/contact" class="btn1">
+												Liên hệ
+											</a>
+											<a href="http://localhost:5296/User/about" class="btn2">
+												Thông tin
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<div class="container ">
+							<div class="row">
+								<div class="col-md-10 mx-auto">
+									<div class="detail-box">
+										<h1>
+											SỬA ĐỘNG CƠ, HỘP SỐ, PHANH, ĐIỀU HÒA<br>
+											THAY DẦU, BẢO DƯỠNG, SỬA THÂN VỎ, THAY LỐP<br>
+											LINH KIỆN CHÍNH HÃNG, BẢO HÀNH DÀI HẠN
+										</h1>
+										<div class="btn-box">
+											<a href="http://localhost:5296/User/contact" class="btn1">
+												Liên hệ
+											</a>
+											<a href="http://localhost:5296/User/about" class="btn2">
+												Thông tin
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<ol class="carousel-indicators">
+					<li data-target="#customCarousel1" data-slide-to="0" class="active"></li>
+					<li data-target="#customCarousel1" data-slide-to="1"></li>
+				</ol>
+			</div>
+
+		</section>
+		<!-- end slider section -->
+	</div>
+
+	<div>
+		@RenderBody()
+	</div>
 
 
 
-    <!-- info section -->
-    <section class="info_section ">
 
-        <div class="container">
-            <div class="contact_nav">
-                <a href="">
-                    <i class="fa fa-phone" aria-hidden="true"></i>
-                    <span>
-                        Call : +0961.345.247
-                    </span>
-                </a>
-                <a href="">
-                    <i class="fa fa-envelope" aria-hidden="true"></i>
-                    <span>
-                        Email : ThieuNguyen@gmail.com
-                    </span>
-                </a>
-                <a href="">
-                    <i class="fa fa-map-marker" aria-hidden="true"></i>
-                    <span>
-                      247 Đồng Nai
-                    </span>
-                </a>
-            </div>
+	<!-- info section -->
+	<section class="info_section ">
 
-            <div class="info_top ">
-                <div class="row info_main_row">
-                    <div class="col-sm-6 col-md-4 col-lg-3">
-                        <div class="info_links">
-                            <h4>
-                                LIÊN KẾT NHANH
-                            </h4>
-                            <div class="info_links_menu">
-                                <a class="" href="http://localhost:5296/">TRANG CHỦ<span class="sr-only">(current)</span></a>
-                                <a class="" href="http://localhost:5296/User/service">DỊCH VỤ</a>
-                                <a class="" href="http://localhost:5296/User/about"> GIỚI THIỆU</a>
-                                <a class="" href="http://localhost:5296/User/project">TIN TỨC</a>
-                                <a class="" href="http://localhost:5296/User/testimonial">CHỨNG THỰC</a>
-                                <a class="" href="http://localhost:5296/">LIÊN HỆ</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-4 col-lg-3 mx-auto">
-                        <div class="info_post">
-                            <h5>
-                                INSTAGRAM FEEDS
-                            </h5>
-                            <div class="post_box">
-                                <div class="img-box">
-                                    <img src="~/content/images/instagram.jpg" alt="">
-                                </div>
-                                <div class="img-box">
-                                    <img src="~/content/images/instagram.jpg" alt="">
-                                </div>
-                                <div class="img-box">
-                                    <img src="~/content/images/instagram.jpg" alt="">
-                                </div>
-                                <div class="img-box">
-                                    <img src="~/content/images/instagram.jpg" alt="">
-                                </div>
-                                <div class="img-box">
-                                    <img src="~/content/images/instagram.jpg" alt="">
-                                </div>
-                                <div class="img-box">
-                                    <img src="~/content/images/instagram.jpg" alt="">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="info_form">
-                            <h4>
-                                SIGN UP TO OUR NEWSLETTER
-                            </h4>
-                            <form action="">
-                                <input type="text" placeholder="Enter Your Email" />
-                                <button type="submit">
-                                    Subscribe
-                                </button>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="info_bottom">
-                <div class="row">
-                    <div class="col-md-2">
-                        <div class="info_logo">
-                            <a href="">
-                                <img src="~/content/images/logo2.png" alt="">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4 ml-auto">
-                        <div class="social_box">
-                            <a href="https://www.facebook.com/I.Am.Nguyen2003">
-                                <i class="fa fa-facebook" aria-hidden="true"></i>
-                            </a>
-                            <a href="">
-                                <i class="fa fa-twitter" aria-hidden="true"></i>
-                            </a>
-                            <a href="">
-                                <i class="fa fa-linkedin" aria-hidden="true"></i>
-                            </a>
-                            <a href="">
-                                <i class="fa fa-instagram" aria-hidden="true"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
+		<div class="container">
+			<div class="contact_nav">
+				<a href="">
+					<i class="fa fa-phone" aria-hidden="true"></i>
+					<span>
+						0961.345.247
+					</span>
+				</a>
+				<a href="">
+					<i class="fa fa-envelope" aria-hidden="true"></i>
+					<span>
+						ThieuNguyen@gmail.com
+					</span>
+				</a>
+				<a href="">
+					<i class="fa fa-map-marker" aria-hidden="true"></i>
+					<span>
+						247 Đồng Nai
+					</span>
+				</a>
+			</div>
 
-            </div>
-        </div>
-    </section>
-    <!-- end info_section -->
-    <!-- footer section -->
-    <footer class="footer_section">
-        <div class="container">
-            <p>
-                &copy; <span id="displayYear"></span>All Right Reversed Design by Team three
-                <a href="https://html.design/">Liên Hệ Qua SĐT:0812823801</a>
-            </p>
-        </div>
-    </footer>
-    <!-- footer section -->
-    <!-- jQery -->
+			<div class="info_top ">
+				<div class="row info_main_row">
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="info_links">
+							<h4>
+								LIÊN KẾT NHANH
+							</h4>
+							<div class="info_links_menu">
+								<a class="" href="http://localhost:5296/">TRANG CHỦ<span class="sr-only">(current)</span></a>
+								<a class="" href="http://localhost:5296/User/service">DỊCH VỤ</a>
+								<a class="" href="http://localhost:5296/User/about"> GIỚI THIỆU</a>
+								<a class="" href="http://localhost:5296/User/project">TIN TỨC</a>
+								<a class="" href="http://localhost:5296/User/testimonial">CHỨNG THỰC</a>
+								<a class="" href="http://localhost:5296/User/contact">LIÊN HỆ</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-4 col-lg-3 mx-auto">
+						<div class="info_post">
+							<h5>
+								HÌNH ẢNH CỨU HỘ
+							</h5>
+							<div class="post_box">
+								<div class="img-box">
+									<img src="~/content/images/cuuho1.jpg" />
+								</div>
+								<div class="img-box">
+									<img src="~/content/images/cuuho2.jpg" />
+								</div>
+								<div class="img-box">
+									<img src="~/content/images/cuuho3.jpg" />
+								</div>
+								<div class="img-box">
+									<img src="~/content/images/cuuho7.jpg" />
+								</div>
+								<div class="img-box">
+									<img src="~/content/images/cuuho5.jpg" />
+								</div>
+								<div class="img-box">
+									<img src="~/content/images/cuuho6.jpg" />
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="info_form">
+							<h4>
+								SIGN UP TO OUR NEWSLETTER
+							</h4>
+							<form action="">
+								<input type="text" placeholder="Enter Your Email" />
+								<button type="submit">
+									Subscribe
+								</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="info_bottom">
+				<div class="row">
+					<div class="col-md-4 ml-auto">
+						<div class="social_box">
+							<a href="https://www.facebook.com/I.Am.Nguyen2003">
+								<i class="fa fa-facebook" aria-hidden="true"></i>
+							</a>
+							<a href="">
+								<i class="fa fa-twitter" aria-hidden="true"></i>
+							</a>
+							<a href="">
+								<i class="fa fa-linkedin" aria-hidden="true"></i>
+							</a>
+							<a href="">
+								<i class="fa fa-instagram" aria-hidden="true"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+	<!-- end info_section -->
+	<!-- footer section -->
+	<div class="footer_section">
+		<div class="footer_main">
+			<div class="container-fluid">
+				<div class="row footer_row">
+					<div class="col-md-6 footer_left">
+						<p>Địa chỉ: 247 Đồng Nai | Số điện thoại: 0961.345.247 | Email: ThieuNguyen@gmail.com</p>
+					</div>
+					<div class="col-md-6 footer_right">
+						<p>&copy; 2025 Cứu Hộ 24/7.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- footer section -->
+	<!-- jQery -->
 	<script src="~/content/js/jquery-3.4.1.min.js"></script>
-    <!-- popper js -->
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-    </script>
-    <!-- bootstrap js -->
+	<!-- popper js -->
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+	</script>
+	<!-- bootstrap js -->
 	<script src="~/content/js/bootstrap.js"></script>
-    <!-- owl slider -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
-    </script>
-    <!--  OwlCarousel 2 - Filter -->
-    <script src="https://huynhhuynh.github.io/owlcarousel2-filter/dist/owlcarousel2-filter.min.js"></script>
-    <!-- custom js -->
+	<!-- owl slider -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
+	</script>
+	<!--  OwlCarousel 2 - Filter -->
+	<script src="https://huynhhuynh.github.io/owlcarousel2-filter/dist/owlcarousel2-filter.min.js"></script>
+	<!-- custom js -->
 	<script src="~/content/js/custom.js"></script>
-    <!-- Google Map -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap">
-    </script>
-    <!-- End Google Map -->
+	<!-- Google Map -->
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap">
+	</script>
+	<!-- End Google Map -->
 
 </body>
 

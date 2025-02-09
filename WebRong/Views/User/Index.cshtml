@@ -3,8 +3,120 @@
 *@
 @{
     Layout = "~/Views/Shared/_Layout.cshtml";
+    var baiviet = ViewBag.Baiviet;
+    var dichvu = ViewBag.Dichvu;
+    
 }
+@using System.IO
+<style>
 
-<div>
-    <h1 style="text-align: center;">Frontend load hình ảnh Cứu Hộ</h1>
-</div>
+    .heading_container h2 {
+        text-align: center;
+        width: 100%;
+        font-size: 28px;
+        font-weight: bold;
+        margin-top: 30px;
+        color: #f07b26;
+    }
+
+
+    /* Container cho bài viết và tin tức */
+    .baiviet_container,
+    .tintuc_container {
+        background-color: #f8f9fa;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Định dạng từng bài viết */
+    .box {
+        background: white;
+        padding: 20px;
+        margin: 10px 0;
+        border-radius: 8px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+        .box:hover {
+            transform: translateY(-5px);
+            box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+            cursor: pointer;
+        }
+
+            .box:hover p {
+                color: #f07b26;
+            }
+
+        .box img {
+            width: 100%; /* Ảnh sẽ co giãn theo kích thước của .box */
+            height: 150px; /* Chiều cao cố định cho tất cả ảnh */
+            border-radius: 8px; /* Bo góc ảnh nếu cần */
+            object-fit: cover; /* Đảm bảo ảnh không bị méo */
+        }
+
+    /* Phần nội dung */
+    .detail-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .detail-box h5 {
+        font-size: 18px;
+        font-weight: bold;
+        color: #333;
+        margin-bottom: 10px;
+    }
+
+    .detail-box a {
+        display: inline-block;
+        text-decoration: none;
+        color: #007bff;
+        font-weight: bold;
+        transition: color 0.3s ease;
+    }
+
+        .detail-box a:hover {
+            color: #0056b3;
+            text-decoration: underline;
+        }
+
+</style>
+<section class="service_section">
+    <div class="baiviet_container">
+        <div class="container">
+            @{
+                foreach(var itemDV in dichvu)
+                {
+                    <div class="heading_container text-center d-flex justify-content-center">
+                        <h2>@itemDV.TenDichvu</h2>
+                    </div>
+
+                    <div class="row">
+                        @{
+                            foreach (var item in baiviet)
+                            {
+                                if (item.IdDichvu == itemDV.IdDichvu)
+                                {
+                                    var image = Url.Content("~/content/images/" + item.ImageIndex);
+                                    <div class="col-lg-3 col-md-4 col-sm-6">
+                                        <div class="box">
+                                            <div class="detail-box">
+                                                <img src=@image />
+                                                <p style="text-align:center">@item.TenBaiviet</p>
+                                                <a href="/User/DetailBaiviet/@item.IdBaiviet" style="text-align:center">Liên hệ ngay</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                }
+                            }
+                        }
+                    </div>
+                }
+            }
+           
+        </div>
+    </div>
+</section>
+

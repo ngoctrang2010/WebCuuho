@@ -1,112 +1,147 @@
-﻿
-
-@*
+﻿@*
     For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 *@
 @{
-    Layout = "~/Views/Shared/_Layout.cshtml";
+	Layout = "~/Views/Shared/_Layout.cshtml";
+	var dichvu = ViewBag.Dichvu;
+	var baiviet = ViewBag.Baiviet;
+
+	<!-- service section -->
 }
-    <!-- service section -->
 
-    <section class="service_section layout_padding">
-        <div class="service_container">
-            <div class="container ">
-                <div class="heading_container">
-                    <h2>
-                        Services
-                    </h2>
-                    <p>
-                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
-                    </p>
-                </div>
-                <div class="row">
-                    <div class="col-md-6 col-lg-3">
-                        <div class="box ">
-                            <div class="img-box">
-                                <img src="~/content/images/s1.png" alt="">
-                            </div>
-                            <div class="detail-box">
-                                <h5>
-                                    Construction
-                                    Services
-                                </h5>
-                                <p>
-                                    fact that a reader will be distracted by the readable content of a page when looking at its layout.
-                                    The
-                                    point of using L
-                                </p>
-                                <a href="">
-                                    Read More
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-3">
-                        <div class="box ">
-                            <div class="img-box">
-                                <img src="~/content/images/s2.png" alt="">
-                            </div>
-                            <div class="detail-box">
-                                <h5>
-                                    Building
-                                    Modeling
-                                </h5>
-                                <p>
-                                    fact that a reader will be distracted by the readable content of a page when looking at its layout.
-                                    The
-                                    point of using L
-                                </p>
-                                <a href="">
-                                    Read More
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-3">
-                        <div class="box ">
-                            <div class="img-box">
-                                <img src="~/content/images/s3.png" alt="">
-                            </div>
-                            <div class="detail-box">
-                                <h5>
-                                    Pre
-                                    construction
-                                </h5>
-                                <p>
-                                    fact that a reader will be distracted by the readable content of a page when looking at its layout.
-                                    The
-                                    point of using L
-                                </p>
-                                <a href="">
-                                    Read More
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-3">
-                        <div class="box ">
-                            <div class="img-box">
-                                <img src="~/content/images/s4.png" alt="">
-                            </div>
-                            <div class="detail-box">
-                                <h5>
-                                    Management
-                                </h5>
-                                <p>
-                                    fact that a reader will be distracted by the readable content of a page when looking at its layout.
-                                    The
-                                    point of using L
-                                </p>
-                                <a href="">
-                                    Read More
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+<style>
 
-    <!-- end service section -->
-   
+	
+	/* Container cho bài viết và tin tức */
+	.baiviet_container
+	{
+		padding: 30px;
+		border-radius: 10px;
+	}
+
+	/* Định dạng từng bài viết */
+	.box-baiviet {
+		background: white;
+		padding: 20px;
+		margin: 10px 0;
+		border-radius: 8px;
+		transition: transform 0.3s ease, box-shadow 0.3s ease;
+		box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+	}
+
+		.box-baiviet:hover {
+			transform: translateY(-5px);
+			box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+			cursor: pointer;
+		}
+
+			.box-baiviet:hover p {
+				color: #f07b26;
+			}
+
+		.box-baiviet img {
+			width: 100%; /* Ảnh sẽ co giãn theo kích thước của .box */
+			height: 150px; /* Chiều cao cố định cho tất cả ảnh */
+			border-radius: 8px; /* Bo góc ảnh nếu cần */
+			object-fit: cover; /* Đảm bảo ảnh không bị méo */
+		}
+
+	/* Phần nội dung */
+	.detail-box-baiviet {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+		.detail-box-baiviet h5 {
+			font-size: 18px;
+			font-weight: bold;
+			color: #333;
+			margin-bottom: 10px;
+		}
+
+		.detail-box-baiviet a {
+			display: inline-block;
+			text-decoration: none;
+			color: #007bff;
+			font-weight: bold;
+			transition: color 0.3s ease;
+		}
+
+	.detail-bo-baivietx-baiviet a:hover {
+				color: #0056b3;
+				text-decoration: underline;
+			}
+
+</style>
+
+<section class="service_section layout_padding">
+	<div class="service_container">
+		<div class="container ">
+			<div class="heading_container">
+				<h2>
+					Dịch vụ
+				</h2>
+				<p>
+					Chúng tôi là đội ngũ cứu hộ tận tâm, chuyên cung cấp các giải pháp cứu hộ và hỗ trợ giao thông khẩn cấp với chất lượng dịch vụ cao nhất.
+				</p>
+			</div>
+			<div class="row">
+				@{
+					foreach (var itemDV in dichvu)
+					{
+						var image = Url.Content("~/content/images/" + itemDV.LogoDichvu);
+						<div class="col-md-6">
+							<div class="box ">
+								<div class="img-box">
+									<img src=@image alt="">
+								</div>
+								<div class="detail-box">
+									<h5>
+										@itemDV.TenDichvu
+									</h5>
+									<p>
+										@itemDV.MotaDichvu
+									</p>
+								</div>
+							</div>
+						</div>
+					}
+				}
+
+			</div>
+		</div>
+		<div class="baiviet_container">
+			<div class="container-baiviet">
+				@{
+					foreach (var itemDV in dichvu)
+					{
+						<div class="row">
+							@{
+								foreach (var item in baiviet)
+								{
+									if (item.IdDichvu == itemDV.IdDichvu)
+									{
+										var image = Url.Content("~/content/images/" + item.ImageIndex);
+										<div class="col-lg-3 col-md-4 col-sm-6">
+											<div class="box-baiviet">
+												<div class="detail-box-baiviet">
+													<img src=@image />
+													<p style="text-align:center">@item.TenBaiviet</p>
+													<a href="/User/DetailBaiviet/@item.IdBaiviet" style="text-align:center">Liên hệ ngay</a>
+												</div>
+											</div>
+										</div>
+									}
+								}
+							}
+						</div>
+					}
+				}
+
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- end service section -->

@@ -11,5 +11,7 @@ public partial class DichVu
 
     public string? MotaDichvu { get; set; }
 
+    public string? LogoDichvu { get; set; }
+
     public virtual ICollection<BaiViet> BaiViets { get; set; } = new List<BaiViet>();
 }

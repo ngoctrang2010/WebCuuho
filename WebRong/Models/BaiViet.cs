@@ -17,5 +17,7 @@ public partial class BaiViet
 
     public bool IsTintuc { get; set; }
 
+    public string? ImageIndex { get; set; }
+
     public virtual DichVu? IdDichvuNavigation { get; set; }
 }
