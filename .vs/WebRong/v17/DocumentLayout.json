@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\Github\\WebCuuho\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B2A2B28B-06B3-42D3-9592-5DDC5F25BBBE}|WebRong\\WebRong.csproj|d:\\github\\webcuuho\\webrong\\views\\user\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B2A2B28B-06B3-42D3-9592-5DDC5F25BBBE}|WebRong\\WebRong.csproj|solutionrelative:webrong\\views\\user\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B2A2B28B-06B3-42D3-9592-5DDC5F25BBBE}|WebRong\\WebRong.csproj|d:\\github\\webcuuho\\webrong\\views\\user\\detailbaiviet.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B2A2B28B-06B3-42D3-9592-5DDC5F25BBBE}|WebRong\\WebRong.csproj|solutionrelative:webrong\\views\\user\\detailbaiviet.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -31,10 +35,6 @@
       "RelativeMoniker": "D:0:0:{B2A2B28B-06B3-42D3-9592-5DDC5F25BBBE}|WebRong\\WebRong.csproj|solutionrelative:webrong\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B2A2B28B-06B3-42D3-9592-5DDC5F25BBBE}|WebRong\\WebRong.csproj|d:\\github\\webcuuho\\webrong\\views\\user\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B2A2B28B-06B3-42D3-9592-5DDC5F25BBBE}|WebRong\\WebRong.csproj|solutionrelative:webrong\\views\\user\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B2A2B28B-06B3-42D3-9592-5DDC5F25BBBE}|WebRong\\WebRong.csproj|d:\\github\\webcuuho\\webrong\\views\\user\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B2A2B28B-06B3-42D3-9592-5DDC5F25BBBE}|WebRong\\WebRong.csproj|solutionrelative:webrong\\views\\user\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -58,11 +58,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "service.cshtml",
               "DocumentMoniker": "D:\\Github\\WebCuuho\\WebRong\\Views\\User\\service.cshtml",
               "RelativeDocumentMoniker": "WebRong\\Views\\User\\service.cshtml",
@@ -71,8 +71,7 @@
               "ViewState": "AQIAAEoAAAAAAAAAAAAgwIIAAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-02-09T09:55:55.082Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -92,7 +91,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Github\\WebCuuho\\WebRong\\Views\\User\\Index.cshtml",
               "RelativeDocumentMoniker": "WebRong\\Views\\User\\Index.cshtml",
@@ -100,12 +99,11 @@
               "RelativeToolTip": "WebRong\\Views\\User\\Index.cshtml",
               "ViewState": "AQIAAFcAAAAAAAAAAAAgwGsAAABdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-09T12:21:02.199Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-09T12:21:02.199Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "testimonial.cshtml",
               "DocumentMoniker": "D:\\Github\\WebCuuho\\WebRong\\Views\\User\\testimonial.cshtml",
               "RelativeDocumentMoniker": "WebRong\\Views\\User\\testimonial.cshtml",
@@ -113,25 +111,24 @@
               "RelativeToolTip": "WebRong\\Views\\User\\testimonial.cshtml",
               "ViewState": "AQIAAAwAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-09T12:20:38.682Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-09T12:20:38.682Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
               "Title": "contact.cshtml",
               "DocumentMoniker": "D:\\Github\\WebCuuho\\WebRong\\Views\\User\\contact.cshtml",
               "RelativeDocumentMoniker": "WebRong\\Views\\User\\contact.cshtml",
               "ToolTip": "D:\\Github\\WebCuuho\\WebRong\\Views\\User\\contact.cshtml",
               "RelativeToolTip": "WebRong\\Views\\User\\contact.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAADQAAAAAAAAAAAAiwFsAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-02-09T12:20:33.505Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "DetailBaiviet.cshtml",
               "DocumentMoniker": "D:\\Github\\WebCuuho\\WebRong\\Views\\User\\DetailBaiviet.cshtml",
               "RelativeDocumentMoniker": "WebRong\\Views\\User\\DetailBaiviet.cshtml",
@@ -144,7 +141,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\Github\\WebCuuho\\WebRong\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "WebRong\\Views\\Shared\\_Layout.cshtml",
@@ -152,12 +149,11 @@
               "RelativeToolTip": "WebRong\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AQIAAO4AAAAAAAAAAAAgwBIBAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-09T10:53:01.94Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-09T10:53:01.94Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "UserController.cs",
               "DocumentMoniker": "D:\\Github\\WebCuuho\\WebRong\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "WebRong\\Controllers\\UserController.cs",
@@ -165,12 +161,11 @@
               "RelativeToolTip": "WebRong\\Controllers\\UserController.cs",
               "ViewState": "AQIAAFgAAAAAAAAAAAAAAFsAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T02:00:55.451Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-09T02:00:55.451Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "BaiViet.cs",
               "DocumentMoniker": "D:\\Github\\WebCuuho\\WebRong\\Models\\BaiViet.cs",
               "RelativeDocumentMoniker": "WebRong\\Models\\BaiViet.cs",
@@ -178,8 +173,7 @@
               "RelativeToolTip": "WebRong\\Models\\BaiViet.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T11:15:24.204Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-09T11:15:24.204Z"
             },
             {
               "$type": "Document",
@@ -191,8 +185,7 @@
               "RelativeToolTip": "WebRong\\Views\\User\\about.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-09T12:20:35.59Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-09T12:20:35.59Z"
             },
             {
               "$type": "Document",
@@ -204,8 +197,7 @@
               "RelativeToolTip": "WebRong\\Views\\User\\project.cshtml",
               "ViewState": "AQIAACQAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-09T12:20:21.169Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-09T12:20:21.169Z"
             },
             {
               "$type": "Document",
@@ -217,8 +209,7 @@
               "RelativeToolTip": "WebRong\\Repository\\IDichvuRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T12:20:15.559Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-09T12:20:15.559Z"
             },
             {
               "$type": "Document",
@@ -230,8 +221,7 @@
               "RelativeToolTip": "WebRong\\Repository\\EFDichvuRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T12:20:14.999Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-09T12:20:14.999Z"
             }
           ]
         }

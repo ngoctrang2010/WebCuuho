@@ -5,6 +5,60 @@
 @{
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
+<style>
+    .form-container {
+        width: 100%;
+        max-width: 500px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #f9f9f9;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+        .form-container input,
+        .form-container textarea {
+            width: 100%;
+            padding: 12px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+            font-size: 16px;
+        }
+
+            .form-container input[type="text"]:focus,
+            .form-container textarea:focus {
+                border-color: #4CAF50;
+                outline: none;
+                box-shadow: 0 0 8px rgba(76, 175, 80, 0.3);
+            }
+
+            .form-container input::placeholder,
+            .form-container textarea::placeholder {
+                color: #aaa;
+            }
+
+        .form-container button {
+            width: 100%;
+            padding: 14px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+            .form-container button:hover {
+                background-color: #45a049;
+            }
+
+            .form-container button:active {
+                background-color: #387c39;
+            }
+</style>
 <section class="contact_section layout_padding">
     <div class="container-fluid">
         <div class="col-lg-4 col-md-5 offset-md-1">
@@ -17,17 +71,15 @@
         <div class="row">
             <div class="col-lg-4 col-md-5 offset-md-1">
                 <div class="form_container">
-                    <form action="@Url.Action("SubmitContact", "User")" method="post">
+                    <form action="@Url.Action("SubmitContact", "User")" method="post" class="form-container">
                         <input type="text" name="Ten" placeholder="Tên" required>
                         <input type="text" name="Diachi" placeholder="Địa chỉ" required>
                         <input type="text" name="Sdt" placeholder="Số điện thoại" required>
                         <textarea name="Chude" placeholder="Chủ đề" required></textarea>
                         <textarea name="Noidung" placeholder="Nội dung" required></textarea>
                         <input type="hidden" name="Hoanthanh" value="false">
-
                         <button type="submit" class="btn btn-primary">Gửi</button>
                     </form>
-
                 
                 </div>
             </div>
