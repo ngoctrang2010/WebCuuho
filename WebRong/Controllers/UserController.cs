@@ -1,5 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using PagedList;
+
 using WebRong.Models;
 using WebRong.Repository;
 

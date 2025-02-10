@@ -1,172 +1,232 @@
 {
   "Files": [
     {
-      "Id": "D:\\Github\\WebCuuho\\WebRong\\wwwroot\\Content\\css\\bootstrap.css",
+      "Id": "D:\\WebCuuho\\WebCuuho\\WebRong\\wwwroot\\Content\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\Content\\css\\bootstrap.css"
     },
     {
-      "Id": "D:\\Github\\WebCuuho\\WebRong\\wwwroot\\Content\\css\\font-awesome.min.css",
+      "Id": "D:\\WebCuuho\\WebCuuho\\WebRong\\wwwroot\\Content\\css\\font-awesome.min.css",
       "PackagePath": "staticwebassets\\Content\\css\\font-awesome.min.css"
     },
     {
-      "Id": "D:\\Github\\WebCuuho\\WebRong\\wwwroot\\Content\\css\\responsive.css",
+      "Id": "D:\\WebCuuho\\WebCuuho\\WebRong\\wwwroot\\Content\\css\\responsive.css",
       "PackagePath": "staticwebassets\\Content\\css\\responsive.css"
     },
     {
-      "Id": "D:\\Github\\WebCuuho\\WebRong\\wwwroot\\Content\\css\\style.css",
+      "Id": "D:\\WebCuuho\\WebCuuho\\WebRong\\wwwroot\\Content\\css\\style.css",
       "PackagePath": "staticwebassets\\Content\\css\\style.css"
     },
     {
-      "Id": "D:\\Github\\WebCuuho\\WebRong\\wwwroot\\Content\\css\\style.css.map",
+      "Id": "D:\\WebCuuho\\WebCuuho\\WebRong\\wwwroot\\Content\\css\\style.css.map",
       "PackagePath": "staticwebassets\\Content\\css\\style.css.map"
     },
     {
-      "Id": "D:\\Github\\WebCuuho\\WebRong\\wwwroot\\Content\\css\\style.scss",
+      "Id": "D:\\WebCuuho\\WebCuuho\\WebRong\\wwwroot\\Content\\css\\style.scss",
       "PackagePath": "staticwebassets\\Content\\css\\style.scss"
     },
     {
-      "Id": "D:\\Github\\WebCuuho\\WebRong\\wwwroot\\Content\\fonts\\fontawesome-webfont.ttf",
+      "Id": "D:\\WebCuuho\\WebCuuho\\WebRong\\wwwroot\\Content\\fonts\\fontawesome-webfont.ttf",
       "PackagePath": "staticwebassets\\Content\\fonts\\fontawesome-webfont.ttf"
     },
     {
-      "Id": "D:\\Github\\WebCuuho\\WebRong\\wwwroot\\Content\\fonts\\fontawesome-webfont.woff",
+      "Id": "D:\\WebCuuho\\WebCuuho\\WebRong\\wwwroot\\Content\\fonts\\fontawesome-webfont.woff",
       "PackagePath": "staticwebassets\\Content\\fonts\\fontawesome-webfont.woff"
     },
     {
-      "Id": "D:\\Github\\WebCuuho\\WebRong\\wwwroot\\Content\\fonts\\fontawesome-webfont.woff2",
+      "Id": "D:\\WebCuuho\\WebCuuho\\WebRong\\wwwroot\\Content\\fonts\\fontawesome-webfont.woff2",
       "PackagePath": "staticwebassets\\Content\\fonts\\fontawesome-webfont.woff2"
     },
     {
-      "Id": "D:\\Github\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\about-img.jpg",
+      "Id": "D:\\WebCuuho\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\about-img.jpg",
       "PackagePath": "staticwebassets\\Content\\images\\about-img.jpg"
     },
     {
-      "Id": "D:\\Github\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\acquy.png",
+      "Id": "D:\\WebCuuho\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\acquy.png",
       "PackagePath": "staticwebassets\\Content\\images\\acquy.png"
     },
     {
-      "Id": "D:\\Github\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\acquy2.png",
+      "Id": "D:\\WebCuuho\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\acquy2.png",
       "PackagePath": "staticwebassets\\Content\\images\\acquy2.png"
     },
     {
-      "Id": "D:\\Github\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\client-bg.jpg",
+      "Id": "D:\\WebCuuho\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\client-bg.jpg",
       "PackagePath": "staticwebassets\\Content\\images\\client-bg.jpg"
     },
     {
-      "Id": "D:\\Github\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\client.jpg",
+      "Id": "D:\\WebCuuho\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\client.jpg",
       "PackagePath": "staticwebassets\\Content\\images\\client.jpg"
     },
     {
-      "Id": "D:\\Github\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\cuuho1.jpg",
+      "Id": "D:\\WebCuuho\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\cuuho1.jpg",
       "PackagePath": "staticwebassets\\Content\\images\\cuuho1.jpg"
     },
     {
-      "Id": "D:\\Github\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\cuuho2.jpg",
+      "Id": "D:\\WebCuuho\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\cuuho10.jpg",
+      "PackagePath": "staticwebassets\\Content\\images\\cuuho10.jpg"
+    },
+    {
+      "Id": "D:\\WebCuuho\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\cuuho11.jpg",
+      "PackagePath": "staticwebassets\\Content\\images\\cuuho11.jpg"
+    },
+    {
+      "Id": "D:\\WebCuuho\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\cuuho12.jpg",
+      "PackagePath": "staticwebassets\\Content\\images\\cuuho12.jpg"
+    },
+    {
+      "Id": "D:\\WebCuuho\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\cuuho13.jpg",
+      "PackagePath": "staticwebassets\\Content\\images\\cuuho13.jpg"
+    },
+    {
+      "Id": "D:\\WebCuuho\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\cuuho14.jpg",
+      "PackagePath": "staticwebassets\\Content\\images\\cuuho14.jpg"
+    },
+    {
+      "Id": "D:\\WebCuuho\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\cuuho15.jpg",
+      "PackagePath": "staticwebassets\\Content\\images\\cuuho15.jpg"
+    },
+    {
+      "Id": "D:\\WebCuuho\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\cuuho16.jpg",
+      "PackagePath": "staticwebassets\\Content\\images\\cuuho16.jpg"
+    },
+    {
+      "Id": "D:\\WebCuuho\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\cuuho17.jpg",
+      "PackagePath": "staticwebassets\\Content\\images\\cuuho17.jpg"
+    },
+    {
+      "Id": "D:\\WebCuuho\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\cuuho19.jpg",
+      "PackagePath": "staticwebassets\\Content\\images\\cuuho19.jpg"
+    },
+    {
+      "Id": "D:\\WebCuuho\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\cuuho2.jpg",
       "PackagePath": "staticwebassets\\Content\\images\\cuuho2.jpg"
     },
     {
-      "Id": "D:\\Github\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\cuuho3.jpg",
+      "Id": "D:\\WebCuuho\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\cuuho20.jpg",
+      "PackagePath": "staticwebassets\\Content\\images\\cuuho20.jpg"
+    },
+    {
+      "Id": "D:\\WebCuuho\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\cuuho21.jpg",
+      "PackagePath": "staticwebassets\\Content\\images\\cuuho21.jpg"
+    },
+    {
+      "Id": "D:\\WebCuuho\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\cuuho22.jpg",
+      "PackagePath": "staticwebassets\\Content\\images\\cuuho22.jpg"
+    },
+    {
+      "Id": "D:\\WebCuuho\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\cuuho23.jpg",
+      "PackagePath": "staticwebassets\\Content\\images\\cuuho23.jpg"
+    },
+    {
+      "Id": "D:\\WebCuuho\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\cuuho3.jpg",
       "PackagePath": "staticwebassets\\Content\\images\\cuuho3.jpg"
     },
     {
-      "Id": "D:\\Github\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\cuuho4.jpg",
+      "Id": "D:\\WebCuuho\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\cuuho4.jpg",
       "PackagePath": "staticwebassets\\Content\\images\\cuuho4.jpg"
     },
     {
-      "Id": "D:\\Github\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\cuuho5.jpg",
+      "Id": "D:\\WebCuuho\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\cuuho5.jpg",
       "PackagePath": "staticwebassets\\Content\\images\\cuuho5.jpg"
     },
     {
-      "Id": "D:\\Github\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\cuuho6.jpg",
+      "Id": "D:\\WebCuuho\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\cuuho6.jpg",
       "PackagePath": "staticwebassets\\Content\\images\\cuuho6.jpg"
     },
     {
-      "Id": "D:\\Github\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\cuuho7.jpg",
+      "Id": "D:\\WebCuuho\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\cuuho7.jpg",
       "PackagePath": "staticwebassets\\Content\\images\\cuuho7.jpg"
     },
     {
-      "Id": "D:\\Github\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\cuuho8.png",
+      "Id": "D:\\WebCuuho\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\cuuho8.png",
       "PackagePath": "staticwebassets\\Content\\images\\cuuho8.png"
     },
     {
-      "Id": "D:\\Github\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\flag-france.png",
+      "Id": "D:\\WebCuuho\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\cuuho9.jpg",
+      "PackagePath": "staticwebassets\\Content\\images\\cuuho9.jpg"
+    },
+    {
+      "Id": "D:\\WebCuuho\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\flag-france.png",
       "PackagePath": "staticwebassets\\Content\\images\\flag-france.png"
     },
     {
-      "Id": "D:\\Github\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\flag-uk.png",
+      "Id": "D:\\WebCuuho\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\flag-uk.png",
       "PackagePath": "staticwebassets\\Content\\images\\flag-uk.png"
     },
     {
-      "Id": "D:\\Github\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\instagram.jpg",
+      "Id": "D:\\WebCuuho\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\instagram.jpg",
       "PackagePath": "staticwebassets\\Content\\images\\instagram.jpg"
     },
     {
-      "Id": "D:\\Github\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\logo.png",
+      "Id": "D:\\WebCuuho\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\logo.png",
       "PackagePath": "staticwebassets\\Content\\images\\logo.png"
     },
     {
-      "Id": "D:\\Github\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\logo2.png",
+      "Id": "D:\\WebCuuho\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\logo2.png",
       "PackagePath": "staticwebassets\\Content\\images\\logo2.png"
     },
     {
-      "Id": "D:\\Github\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\logoa.jpg",
+      "Id": "D:\\WebCuuho\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\logoa.jpg",
       "PackagePath": "staticwebassets\\Content\\images\\logoa.jpg"
     },
     {
-      "Id": "D:\\Github\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\project1.jpg",
+      "Id": "D:\\WebCuuho\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\project1.jpg",
       "PackagePath": "staticwebassets\\Content\\images\\project1.jpg"
     },
     {
-      "Id": "D:\\Github\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\project2.jpg",
+      "Id": "D:\\WebCuuho\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\project2.jpg",
       "PackagePath": "staticwebassets\\Content\\images\\project2.jpg"
     },
     {
-      "Id": "D:\\Github\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\s1.png",
+      "Id": "D:\\WebCuuho\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\s1.png",
       "PackagePath": "staticwebassets\\Content\\images\\s1.png"
     },
     {
-      "Id": "D:\\Github\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\s2.png",
+      "Id": "D:\\WebCuuho\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\s2.png",
       "PackagePath": "staticwebassets\\Content\\images\\s2.png"
     },
     {
-      "Id": "D:\\Github\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\s3.png",
+      "Id": "D:\\WebCuuho\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\s3.png",
       "PackagePath": "staticwebassets\\Content\\images\\s3.png"
     },
     {
-      "Id": "D:\\Github\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\s4.png",
+      "Id": "D:\\WebCuuho\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\s4.png",
       "PackagePath": "staticwebassets\\Content\\images\\s4.png"
     },
     {
-      "Id": "D:\\Github\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\slider-bg.jpg",
+      "Id": "D:\\WebCuuho\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\slider-bg.jpg",
       "PackagePath": "staticwebassets\\Content\\images\\slider-bg.jpg"
     },
     {
-      "Id": "D:\\Github\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\suaxe.png",
+      "Id": "D:\\WebCuuho\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\suaxe.png",
       "PackagePath": "staticwebassets\\Content\\images\\suaxe.png"
     },
     {
-      "Id": "D:\\Github\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\w1.png",
+      "Id": "D:\\WebCuuho\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\w1.png",
       "PackagePath": "staticwebassets\\Content\\images\\w1.png"
     },
     {
-      "Id": "D:\\Github\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\w2.png",
+      "Id": "D:\\WebCuuho\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\w2.png",
       "PackagePath": "staticwebassets\\Content\\images\\w2.png"
     },
     {
-      "Id": "D:\\Github\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\w3.png",
+      "Id": "D:\\WebCuuho\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\w3.png",
       "PackagePath": "staticwebassets\\Content\\images\\w3.png"
     },
     {
-      "Id": "D:\\Github\\WebCuuho\\WebRong\\wwwroot\\Content\\js\\bootstrap.js",
+      "Id": "D:\\WebCuuho\\WebCuuho\\WebRong\\wwwroot\\Content\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\Content\\js\\bootstrap.js"
     },
     {
-      "Id": "D:\\Github\\WebCuuho\\WebRong\\wwwroot\\Content\\js\\custom.js",
+      "Id": "D:\\WebCuuho\\WebCuuho\\WebRong\\wwwroot\\Content\\js\\custom.js",
       "PackagePath": "staticwebassets\\Content\\js\\custom.js"
     },
     {
-      "Id": "D:\\Github\\WebCuuho\\WebRong\\wwwroot\\Content\\js\\jquery-3.4.1.min.js",
+      "Id": "D:\\WebCuuho\\WebCuuho\\WebRong\\wwwroot\\Content\\js\\jquery-3.4.1.min.js",
       "PackagePath": "staticwebassets\\Content\\js\\jquery-3.4.1.min.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WebRong.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WebRong.Microsoft.AspNetCore.StaticWebAssets.props",
