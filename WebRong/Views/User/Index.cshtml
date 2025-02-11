@@ -82,6 +82,33 @@
             text-decoration: underline;
         }
 
+    .call-button {
+        display: inline-flex;
+        align-items: center;
+        background-color: #ff4500; /* Màu cam đỏ nổi bật */
+        color: white;
+        padding: 8px 14px;
+        border-radius: 25px; /* Bo góc */
+        font-size: 18px;
+        font-weight: bold;
+        text-decoration: none;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        transition: all 0.3s ease-in-out;
+        margin-top: -12px;
+    }
+
+        .call-button i {
+            margin-right: 8px;
+            font-size: 22px;
+        }
+
+        .call-button:hover {
+            background-color: #cc0000; /* Đổi màu cam nhạt khi hover */
+            box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.3);
+            transform: scale(1.05);
+        }
+
+
 </style>
 <section class="service_section">
     <div class="baiviet_container">
@@ -90,9 +117,9 @@
                 foreach(var itemDV in dichvu)
                 {
                     <div class="heading_container text-center d-flex justify-content-center">
+
                         <h2>@itemDV.TenDichvu</h2>
                     </div>
-
                     <div class="row">
                         @{
                             foreach (var item in baiviet)
@@ -103,10 +130,15 @@
                                     <div class="col-lg-3 col-md-4 col-sm-6">
                                         <div class="box">
                                             <div class="detail-box">
+                                                <a href="http://localhost:5296/User/contact" class="call-button">
+                                                    <i class="fa fa-phone" aria-hidden="true"></i>
+                                                    <span>0961345247</span>
+                                                </a>
+
                                                 <img src=@image />
                                                 <p style="text-align:center">@item.TenBaiviet</p>
 
-                                                <a href="/User/DetailBaiviet/@item.IdBaiviet" style="display: block; width: 100%; padding: 10px; text-decoration: none; color: black; border: 1px solid red; border-radius: 5px; text-align: center; transition: border-color 0.3s;" onmouseover="this.style.borderColor = 'yellow'; this.style.backgroundColor = '#FF9900';" onmouseout="this.style.borderColor = 'red'; this.style.backgroundColor = '';"> Xem sản phẩm </a>
+                                                <a href="/User/DetailBaiviet/@item.IdBaiviet" style="display: block; width: 100%; padding: 10px; text-decoration: none; color: black; border: 1px solid red; border-radius: 5px; text-align: center; transition: border-color 0.3s;" onmouseover="this.style.borderColor = 'yellow'; this.style.backgroundColor = '#FF9900';" onmouseout="this.style.borderColor = 'red'; this.style.backgroundColor = '';">Liên hệ ngay </a>
                                             </div>
                                         </div>
                                     </div>

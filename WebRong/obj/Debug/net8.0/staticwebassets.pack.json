@@ -49,6 +49,38 @@
       "PackagePath": "staticwebassets\\Content\\images\\acquy2.png"
     },
     {
+      "Id": "D:\\WebCuuho\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\ch1.jpg",
+      "PackagePath": "staticwebassets\\Content\\images\\ch1.jpg"
+    },
+    {
+      "Id": "D:\\WebCuuho\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\ch2.jpg",
+      "PackagePath": "staticwebassets\\Content\\images\\ch2.jpg"
+    },
+    {
+      "Id": "D:\\WebCuuho\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\ch3.jpg",
+      "PackagePath": "staticwebassets\\Content\\images\\ch3.jpg"
+    },
+    {
+      "Id": "D:\\WebCuuho\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\ch4.jpg",
+      "PackagePath": "staticwebassets\\Content\\images\\ch4.jpg"
+    },
+    {
+      "Id": "D:\\WebCuuho\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\ch5.jpg",
+      "PackagePath": "staticwebassets\\Content\\images\\ch5.jpg"
+    },
+    {
+      "Id": "D:\\WebCuuho\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\ch6.jpg",
+      "PackagePath": "staticwebassets\\Content\\images\\ch6.jpg"
+    },
+    {
+      "Id": "D:\\WebCuuho\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\ch7.jpg",
+      "PackagePath": "staticwebassets\\Content\\images\\ch7.jpg"
+    },
+    {
+      "Id": "D:\\WebCuuho\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\ch8.jpg",
+      "PackagePath": "staticwebassets\\Content\\images\\ch8.jpg"
+    },
+    {
       "Id": "D:\\WebCuuho\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\client-bg.jpg",
       "PackagePath": "staticwebassets\\Content\\images\\client-bg.jpg"
     },
@@ -135,10 +167,6 @@
     {
       "Id": "D:\\WebCuuho\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\cuuho7.jpg",
       "PackagePath": "staticwebassets\\Content\\images\\cuuho7.jpg"
-    },
-    {
-      "Id": "D:\\WebCuuho\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\cuuho8.png",
-      "PackagePath": "staticwebassets\\Content\\images\\cuuho8.png"
     },
     {
       "Id": "D:\\WebCuuho\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\cuuho9.jpg",

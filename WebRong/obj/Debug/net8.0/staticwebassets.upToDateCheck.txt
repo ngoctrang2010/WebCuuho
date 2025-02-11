@@ -10,6 +10,14 @@ wwwroot\Content\fonts\fontawesome-webfont.woff2
 wwwroot\Content\images\about-img.jpg
 wwwroot\Content\images\acquy.png
 wwwroot\Content\images\acquy2.png
+wwwroot\Content\images\ch1.jpg
+wwwroot\Content\images\ch2.jpg
+wwwroot\Content\images\ch3.jpg
+wwwroot\Content\images\ch4.jpg
+wwwroot\Content\images\ch5.jpg
+wwwroot\Content\images\ch6.jpg
+wwwroot\Content\images\ch7.jpg
+wwwroot\Content\images\ch8.jpg
 wwwroot\Content\images\client.jpg
 wwwroot\Content\images\client-bg.jpg
 wwwroot\Content\images\cuuho1.jpg
@@ -32,7 +40,6 @@ wwwroot\Content\images\cuuho4.jpg
 wwwroot\Content\images\cuuho5.jpg
 wwwroot\Content\images\cuuho6.jpg
 wwwroot\Content\images\cuuho7.jpg
-wwwroot\Content\images\cuuho8.png
 wwwroot\Content\images\cuuho9.jpg
 wwwroot\Content\images\flag-france.png
 wwwroot\Content\images\flag-uk.png
