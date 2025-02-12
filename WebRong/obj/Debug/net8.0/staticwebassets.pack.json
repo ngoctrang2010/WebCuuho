@@ -41,6 +41,34 @@
       "PackagePath": "staticwebassets\\Content\\images\\about-img.jpg"
     },
     {
+      "Id": "D:\\WebCuuho\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\ch1.jpg",
+      "PackagePath": "staticwebassets\\Content\\images\\ch1.jpg"
+    },
+    {
+      "Id": "D:\\WebCuuho\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\ch2.jpg",
+      "PackagePath": "staticwebassets\\Content\\images\\ch2.jpg"
+    },
+    {
+      "Id": "D:\\WebCuuho\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\ch3.jpg",
+      "PackagePath": "staticwebassets\\Content\\images\\ch3.jpg"
+    },
+    {
+      "Id": "D:\\WebCuuho\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\ch5.jpg",
+      "PackagePath": "staticwebassets\\Content\\images\\ch5.jpg"
+    },
+    {
+      "Id": "D:\\WebCuuho\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\ch6.jpg",
+      "PackagePath": "staticwebassets\\Content\\images\\ch6.jpg"
+    },
+    {
+      "Id": "D:\\WebCuuho\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\ch7.jpg",
+      "PackagePath": "staticwebassets\\Content\\images\\ch7.jpg"
+    },
+    {
+      "Id": "D:\\WebCuuho\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\ch8.jpg",
+      "PackagePath": "staticwebassets\\Content\\images\\ch8.jpg"
+    },
+    {
       "Id": "D:\\WebCuuho\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\client-bg.jpg",
       "PackagePath": "staticwebassets\\Content\\images\\client-bg.jpg"
     },
@@ -49,12 +77,76 @@
       "PackagePath": "staticwebassets\\Content\\images\\client.jpg"
     },
     {
+      "Id": "D:\\WebCuuho\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\cuuho1.jpg",
+      "PackagePath": "staticwebassets\\Content\\images\\cuuho1.jpg"
+    },
+    {
+      "Id": "D:\\WebCuuho\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\cuuho10.jpg",
+      "PackagePath": "staticwebassets\\Content\\images\\cuuho10.jpg"
+    },
+    {
+      "Id": "D:\\WebCuuho\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\cuuho11.jpg",
+      "PackagePath": "staticwebassets\\Content\\images\\cuuho11.jpg"
+    },
+    {
+      "Id": "D:\\WebCuuho\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\cuuho12.jpg",
+      "PackagePath": "staticwebassets\\Content\\images\\cuuho12.jpg"
+    },
+    {
+      "Id": "D:\\WebCuuho\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\cuuho15.jpg",
+      "PackagePath": "staticwebassets\\Content\\images\\cuuho15.jpg"
+    },
+    {
+      "Id": "D:\\WebCuuho\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\cuuho16.jpg",
+      "PackagePath": "staticwebassets\\Content\\images\\cuuho16.jpg"
+    },
+    {
+      "Id": "D:\\WebCuuho\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\cuuho17.jpg",
+      "PackagePath": "staticwebassets\\Content\\images\\cuuho17.jpg"
+    },
+    {
+      "Id": "D:\\WebCuuho\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\cuuho19.jpg",
+      "PackagePath": "staticwebassets\\Content\\images\\cuuho19.jpg"
+    },
+    {
+      "Id": "D:\\WebCuuho\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\cuuho2.jpg",
+      "PackagePath": "staticwebassets\\Content\\images\\cuuho2.jpg"
+    },
+    {
+      "Id": "D:\\WebCuuho\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\cuuho20.jpg",
+      "PackagePath": "staticwebassets\\Content\\images\\cuuho20.jpg"
+    },
+    {
+      "Id": "D:\\WebCuuho\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\cuuho21.jpg",
+      "PackagePath": "staticwebassets\\Content\\images\\cuuho21.jpg"
+    },
+    {
+      "Id": "D:\\WebCuuho\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\cuuho22.jpg",
+      "PackagePath": "staticwebassets\\Content\\images\\cuuho22.jpg"
+    },
+    {
+      "Id": "D:\\WebCuuho\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\cuuho23.jpg",
+      "PackagePath": "staticwebassets\\Content\\images\\cuuho23.jpg"
+    },
+    {
+      "Id": "D:\\WebCuuho\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\cuuho3.jpg",
+      "PackagePath": "staticwebassets\\Content\\images\\cuuho3.jpg"
+    },
+    {
+      "Id": "D:\\WebCuuho\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\cuuho4.jpg",
+      "PackagePath": "staticwebassets\\Content\\images\\cuuho4.jpg"
+    },
+    {
       "Id": "D:\\WebCuuho\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\flag-france.png",
       "PackagePath": "staticwebassets\\Content\\images\\flag-france.png"
     },
     {
       "Id": "D:\\WebCuuho\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\flag-uk.png",
       "PackagePath": "staticwebassets\\Content\\images\\flag-uk.png"
+    },
+    {
+      "Id": "D:\\WebCuuho\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\images.zip",
+      "PackagePath": "staticwebassets\\Content\\images\\images.zip"
     },
     {
       "Id": "D:\\WebCuuho\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\instagram.jpg",

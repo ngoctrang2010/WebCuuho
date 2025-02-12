@@ -36,7 +36,7 @@ namespace WebRong.Repository
             }
             return false;
         }
-        public async Task<bool> AddBaiviet(LienHe lienHe)
+        public async Task<bool> AddLienhe(LienHe lienHe)
         {
             if (lienHe != null)
             {

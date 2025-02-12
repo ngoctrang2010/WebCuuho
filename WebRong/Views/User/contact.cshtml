@@ -5,48 +5,148 @@
 @{
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
-<!-- contact section -->
+<style>
+    .form-container {
+        width: 100%;
+        max-width: 500px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #f9f9f9;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+        .form-container input,
+        .form-container textarea {
+            width: 100%;
+            padding: 12px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+            font-size: 16px;
+        }
+
+            .form-container input[type="text"]:focus,
+            .form-container textarea:focus {
+                border-color: #4CAF50;
+                outline: none;
+                box-shadow: 0 0 8px rgba(76, 175, 80, 0.3);
+            }
+
+            .form-container input::placeholder,
+            .form-container textarea::placeholder {
+                color: #aaa;
+            }
+
+        .form-container button {
+            width: 100%;
+            padding: 14px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            height: auto;
+        }
+
+            .form-container button:hover {
+                background-color: #45a049;
+            }
+
+            .form-container button:active {
+                background-color: #387c39;
+            }
+
+    .map_container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        height: auto;
+    }
+
+    .map {
+        width: 100%;
+        max-width: 600px; /* Giới hạn chiều rộng */
+        height: 480px;
+        border-radius: 15px; /* Bo tròn góc */
+        overflow: hidden; /* Ẩn phần dư */
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Bóng đổ */
+    }
+
+        .map iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+            border-radius: 15px; /* Đồng bộ bo góc */
+        }
+
+    .heading_container {
+        text-align: center;
+        margin-top: 30px; /* Khoảng cách phía trên */
+        margin-bottom: 20px; /* Khoảng cách phía dưới */
+    }
+
+        .heading_container h2 {
+            font-size: 32px;
+            font-weight: bold;
+            color: #333; /* Màu chữ tối */
+            text-transform: uppercase; /* Chữ in hoa */
+            letter-spacing: 2px; /* Khoảng cách giữa các chữ */
+            position: relative;
+            display: inline-block;
+            padding-bottom: 10px;
+        }
+
+            .heading_container h2::after {
+                content: "";
+                width: 80px;
+                height: 4px;
+                background-color: #007bff; /* Màu gạch chân */
+                position: absolute;
+                bottom: 0;
+                left: 50%;
+                transform: translateX(-50%);
+                border-radius: 2px;
+            }
+
+
+</style>
 <section class="contact_section layout_padding">
     <div class="container-fluid">
         <div class="col-lg-4 col-md-5 offset-md-1">
             <div class="heading_container">
                 <h2>
-                    Contact Us
+                   Liên hệ với chúng tôi
                 </h2>
             </div>
         </div>
         <div class="row">
             <div class="col-lg-4 col-md-5 offset-md-1">
                 <div class="form_container">
-                    <form action="">
-                        <div>
-                            <input type="text" placeholder="Your Name" />
-                        </div>
-                        <div>
-                            <input type="text" placeholder="Phone Number" />
-                        </div>
-                        <div>
-                            <input type="email" placeholder="Email" />
-                        </div>
-                        <div>
-                            <input type="text" class="message-box" placeholder="Message" />
-                        </div>
-                        <div class="btn_box">
-                            <button>
-                                SEND
-                            </button>
-                        </div>
+                    <form action="@Url.Action("SubmitContact", "User")" method="post" class="form-container">
+                        <input type="text" name="Ten" placeholder="Tên" required>
+                        <input type="text" name="Diachi" placeholder="Địa chỉ" required>
+                        <input type="text" name="Sdt" placeholder="Số điện thoại" required>
+                        <textarea name="Chude" placeholder="Chủ đề" required></textarea>
+                        <textarea name="Noidung" placeholder="Nội dung" required></textarea>
+                        <input type="hidden" name="Hoanthanh" value="false">
+                        <button type="submit" class="btn btn-primary">Gửi</button>
                     </form>
+                
                 </div>
             </div>
             <div class="col-lg-7 col-md-6 px-0">
                 <div class="map_container">
                     <div class="map">
-                        <div id="googleMap"></div>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125406.32069117112!2d107.20917389726563!3d10.8153281!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3175ab4cc7f264f7%3A0xfee26b53f71bbb1f!2zQ-G7qXUgaOG7mSBHaWFvIFRow7RuZyAyNDcgxJDhu5NuZyBOYWk!5e0!3m2!1svi!2s!4v1739325495622!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
-<!-- end contact section -->

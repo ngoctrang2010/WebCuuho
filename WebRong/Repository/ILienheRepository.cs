@@ -10,6 +10,6 @@ namespace WebRong.Repository
         public Task<List<LienHe>> GetallLienheHoanthanh();
         public Task<List<LienHe>> GetallLienheChuaHoanthanh();
         public Task<bool> UpdateLienhe(LienHe lienHe);
-        public Task<bool> AddBaiviet(LienHe lienHe);
+        public Task<bool> AddLienhe(LienHe lienHe);
     }
 }
