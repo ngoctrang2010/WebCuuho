@@ -8,12 +8,9 @@ wwwroot\Content\fonts\fontawesome-webfont.ttf
 wwwroot\Content\fonts\fontawesome-webfont.woff
 wwwroot\Content\fonts\fontawesome-webfont.woff2
 wwwroot\Content\images\about-img.jpg
-wwwroot\Content\images\acquy.png
-wwwroot\Content\images\acquy2.png
 wwwroot\Content\images\ch1.jpg
 wwwroot\Content\images\ch2.jpg
 wwwroot\Content\images\ch3.jpg
-wwwroot\Content\images\ch4.jpg
 wwwroot\Content\images\ch5.jpg
 wwwroot\Content\images\ch6.jpg
 wwwroot\Content\images\ch7.jpg
@@ -24,8 +21,6 @@ wwwroot\Content\images\cuuho1.jpg
 wwwroot\Content\images\cuuho10.jpg
 wwwroot\Content\images\cuuho11.jpg
 wwwroot\Content\images\cuuho12.jpg
-wwwroot\Content\images\cuuho13.jpg
-wwwroot\Content\images\cuuho14.jpg
 wwwroot\Content\images\cuuho15.jpg
 wwwroot\Content\images\cuuho16.jpg
 wwwroot\Content\images\cuuho17.jpg
@@ -37,10 +32,6 @@ wwwroot\Content\images\cuuho22.jpg
 wwwroot\Content\images\cuuho23.jpg
 wwwroot\Content\images\cuuho3.jpg
 wwwroot\Content\images\cuuho4.jpg
-wwwroot\Content\images\cuuho5.jpg
-wwwroot\Content\images\cuuho6.jpg
-wwwroot\Content\images\cuuho7.jpg
-wwwroot\Content\images\cuuho9.jpg
 wwwroot\Content\images\flag-france.png
 wwwroot\Content\images\flag-uk.png
 wwwroot\Content\images\instagram.jpg
@@ -54,8 +45,6 @@ wwwroot\Content\images\s2.png
 wwwroot\Content\images\s3.png
 wwwroot\Content\images\s4.png
 wwwroot\Content\images\slider-bg.jpg
-wwwroot\Content\images\suaxe.png
-wwwroot\Content\images\test.jpg
 wwwroot\Content\images\w1.png
 wwwroot\Content\images\w2.png
 wwwroot\Content\images\w3.png

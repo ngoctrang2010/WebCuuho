@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WebRong")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b31bab3d025c354efe15f94d2374278ed1a11306")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a2baf2b547dea8c317b0b4832d1e1a0f39bede9e")]
 [assembly: System.Reflection.AssemblyProductAttribute("WebRong")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WebRong")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
