@@ -49,6 +49,7 @@
             font-size: 16px;
             cursor: pointer;
             transition: background-color 0.3s ease;
+            height: auto;
         }
 
             .form-container button:hover {
@@ -58,6 +59,62 @@
             .form-container button:active {
                 background-color: #387c39;
             }
+
+    .map_container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        height: auto;
+    }
+
+    .map {
+        width: 100%;
+        max-width: 600px; /* Giới hạn chiều rộng */
+        height: 480px;
+        border-radius: 15px; /* Bo tròn góc */
+        overflow: hidden; /* Ẩn phần dư */
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Bóng đổ */
+    }
+
+        .map iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+            border-radius: 15px; /* Đồng bộ bo góc */
+        }
+
+    .heading_container {
+        text-align: center;
+        margin-top: 30px; /* Khoảng cách phía trên */
+        margin-bottom: 20px; /* Khoảng cách phía dưới */
+    }
+
+        .heading_container h2 {
+            font-size: 32px;
+            font-weight: bold;
+            color: #333; /* Màu chữ tối */
+            text-transform: uppercase; /* Chữ in hoa */
+            letter-spacing: 2px; /* Khoảng cách giữa các chữ */
+            position: relative;
+            display: inline-block;
+            padding-bottom: 10px;
+        }
+
+            .heading_container h2::after {
+                content: "";
+                width: 80px;
+                height: 4px;
+                background-color: #007bff; /* Màu gạch chân */
+                position: absolute;
+                bottom: 0;
+                left: 50%;
+                transform: translateX(-50%);
+                border-radius: 2px;
+            }
+
+
 </style>
 <section class="contact_section layout_padding">
     <div class="container-fluid">
@@ -86,7 +143,7 @@
             <div class="col-lg-7 col-md-6 px-0">
                 <div class="map_container">
                     <div class="map">
-                        <div id="googleMap"></div>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125406.32069117112!2d107.20917389726563!3d10.8153281!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3175ab4cc7f264f7%3A0xfee26b53f71bbb1f!2zQ-G7qXUgaOG7mSBHaWFvIFRow7RuZyAyNDcgxJDhu5NuZyBOYWk!5e0!3m2!1svi!2s!4v1739325495622!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
             </div>

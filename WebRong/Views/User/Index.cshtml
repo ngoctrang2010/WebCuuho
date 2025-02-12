@@ -117,7 +117,6 @@
                 foreach(var itemDV in dichvu)
                 {
                     <div class="heading_container text-center d-flex justify-content-center">
-
                         <h2>@itemDV.TenDichvu</h2>
                     </div>
                     <div class="row">
@@ -134,10 +133,13 @@
                                                     <i class="fa fa-phone" aria-hidden="true"></i>
                                                     <span>0961345247</span>
                                                 </a>
+                                                
+                                                <a href="/User/DetailBaiviet/@item.IdBaiviet">
+                                                    <img src="@image" style="width: 200px; height: 150px; object-fit: cover;" alt="Chi tiết bài viết" />
+                                                </a>
 
-                                                <img src=@image />
+                                               
                                                 <p style="text-align:center">@item.TenBaiviet</p>
-
                                                 <a href="/User/DetailBaiviet/@item.IdBaiviet" style="display: block; width: 100%; padding: 10px; text-decoration: none; color: black; border: 1px solid red; border-radius: 5px; text-align: center; transition: border-color 0.3s;" onmouseover="this.style.borderColor = 'yellow'; this.style.backgroundColor = '#FF9900';" onmouseout="this.style.borderColor = 'red'; this.style.backgroundColor = '';">Liên hệ ngay </a>
                                             </div>
                                         </div>

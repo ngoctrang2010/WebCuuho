@@ -84,8 +84,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>pmv6umo3xt</Fingerprint>
-      <Integrity>X+S2MNsDkqvwSEdQXcRyj6tyTZcplHARKIaMhFaasgA=</Integrity>
+      <Fingerprint>9849mltoa6</Fingerprint>
+      <Integrity>V2gJ+XP/4f+R5wOAJjv8x5f/9zSUPw6iczVec93+Zww=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Content\css\style.scss'))</OriginalItemSpec>
@@ -1002,8 +1002,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>y817s98plh</Fingerprint>
-      <Integrity>7t03PRSOGDqTEALf2947L8UgfrdQidwJlNWXPzy4BE8=</Integrity>
+      <Fingerprint>hdujcyh9pj</Fingerprint>
+      <Integrity>ezvvb3tgZLrzUkYnMunSgTYAe+GMgw/i9hOaZbya4cM=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Content\images\slider-bg.jpg'))</OriginalItemSpec>
@@ -1025,6 +1025,24 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Content\images\suaxe.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Content\images\test.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebRong</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebRong</BasePath>
+      <RelativePath>Content/images/test.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>y817s98plh</Fingerprint>
+      <Integrity>7t03PRSOGDqTEALf2947L8UgfrdQidwJlNWXPzy4BE8=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Content\images\test.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Content\images\w1.png'))">
       <SourceType>Package</SourceType>

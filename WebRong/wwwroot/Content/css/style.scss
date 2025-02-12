@@ -119,118 +119,114 @@ a:focus {
 }
 
 .header_section {
-  .header_top {
-    padding: 15px 0;
-    background-color: $primary2;
+    .header_top {
+        padding: 15px 0;
+        background-color: $primary2;
 
-    .header_top_container {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-
-      .lang_box {
-        position: relative;
-        display: flex;
-        align-items: center;
-
-        a {
-          margin: 0;
-          padding: 5px;
-          background-color: $white;
-          color: $black;
-
-          img {
-            width: 25px;
-          }
-        }
-
-        span {
-          color: $white;
-          margin-left: 10px;
-        }
-
-        .dropdown-menu {
-          min-width: auto;
-          width: auto;
-          border-radius: 0;
-
-          a {
-            color: $black;
-            margin: 0;
-            padding: 0 10px;
+        .header_top_container {
             display: flex;
-            justify-content: center;
+            justify-content: space-between;
             align-items: center;
-            background-color: $white;
-          }
+
+            .lang_box {
+                position: relative;
+                display: flex;
+                align-items: center;
+
+                a {
+                    margin: 0;
+                    padding: 5px;
+                    background-color: $white;
+                    color: $black;
+
+                    img {
+                        width: 25px;
+                    }
+                }
+
+                span {
+                    color: $white;
+                    margin-left: 10px;
+                }
+
+                .dropdown-menu {
+                    min-width: auto;
+                    width: auto;
+                    border-radius: 0;
+
+                    a {
+                        color: $black;
+                        margin: 0;
+                        padding: 0 10px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        background-color: $white;
+                    }
+                }
+            }
         }
 
+        .contact_nav {
+            display: flex;
 
-      }
+            a {
+                margin-right: 25px;
+                color: $white;
+                display: flex;
+
+                i {
+                    margin-right: 5px;
+                    background-color: $white;
+                    width: 25px;
+                    height: 25px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    color: $primary1;
+                }
+
+                &:hover {
+                    i {
+                        color: $primary2;
+                    }
+                }
+            }
+        }
+
+        .social_box {
+            display: flex;
+
+            a {
+                i {
+                    margin-right: 5px;
+                    background-color: $white;
+                    width: 25px;
+                    height: 25px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    color: $primary1;
+                }
+
+                &:hover {
+                    i {
+                        color: $primary2;
+                    }
+                }
+            }
+        }
     }
 
-    .contact_nav {
-      display: flex;
+    .header_bottom {
+        background-color: $white;
+        padding: 15px 0;
 
-      a {
-        margin-right: 25px;
-        color: $white;
-        display: flex;
-
-        i {
-          margin-right: 5px;
-          background-color: $white;
-          width: 25px;
-          height: 25px;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          color: $primary1;
+        .container-fluid {
+            padding-right: 25px;
+            padding-left: 25px;
         }
-
-        &:hover {
-          i {
-            color: $primary2;
-          }
-        }
-      }
     }
-
-    .social_box {
-      display: flex;
-
-      a {
-        i {
-          margin-right: 5px;
-          background-color: $white;
-          width: 25px;
-          height: 25px;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          color: $primary1;
-        }
-
-        &:hover {
-          i {
-            color: $primary2;
-          }
-        }
-      }
-    }
-  }
-
-  .header_bottom {
-    background-color: $white;
-    padding: 15px 0;
-
-    .container-fluid {
-      padding-right: 25px;
-      padding-left: 25px;
-    }
-
-  }
-
 }
 
 

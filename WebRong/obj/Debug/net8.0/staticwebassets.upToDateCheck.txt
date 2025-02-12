@@ -55,6 +55,7 @@ wwwroot\Content\images\s3.png
 wwwroot\Content\images\s4.png
 wwwroot\Content\images\slider-bg.jpg
 wwwroot\Content\images\suaxe.png
+wwwroot\Content\images\test.jpg
 wwwroot\Content\images\w1.png
 wwwroot\Content\images\w2.png
 wwwroot\Content\images\w3.png
