@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "iQblNZf8Vcu3KIZZtZYxW2S4rRb3RwgQaMQ29Pvysxw=",
+  "Hash": "w3eTRehckay4dGMyA+DggNQX1Q6gdix9zQ0vwp5hXlA=",
   "Source": "WebRong",
   "BasePath": "_content/WebRong",
   "Mode": "Default",
@@ -771,6 +771,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Content\\images\\flag-uk.png"
+    },
+    {
+      "Identity": "D:\\WebCuuho\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\images.zip",
+      "SourceId": "WebRong",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\WebCuuho\\WebCuuho\\WebRong\\wwwroot\\",
+      "BasePath": "_content/WebRong",
+      "RelativePath": "Content/images/images#[.{fingerprint}]?.zip",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "cut4adetjj",
+      "Integrity": "FC6tV68fV+pxxkBtd8SOrfUK+xW7af4ZNtClvxZ5IvA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Content\\images\\images.zip"
     },
     {
       "Identity": "D:\\WebCuuho\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\instagram.jpg",
@@ -4080,6 +4101,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-RDj3HmJTX4g/zYu+vtf60MzJC7S4t48yj2ct70tMZcg="
+        }
+      ]
+    },
+    {
+      "Route": "Content/images/images.cut4adetjj.zip",
+      "AssetFile": "D:\\WebCuuho\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\images.zip",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2706513"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-zip-compressed"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FC6tV68fV+pxxkBtd8SOrfUK+xW7af4ZNtClvxZ5IvA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 06:29:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cut4adetjj"
+        },
+        {
+          "Name": "label",
+          "Value": "Content/images/images.zip"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-FC6tV68fV+pxxkBtd8SOrfUK+xW7af4ZNtClvxZ5IvA="
+        }
+      ]
+    },
+    {
+      "Route": "Content/images/images.zip",
+      "AssetFile": "D:\\WebCuuho\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\images.zip",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2706513"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-zip-compressed"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FC6tV68fV+pxxkBtd8SOrfUK+xW7af4ZNtClvxZ5IvA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 06:29:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FC6tV68fV+pxxkBtd8SOrfUK+xW7af4ZNtClvxZ5IvA="
         }
       ]
     },

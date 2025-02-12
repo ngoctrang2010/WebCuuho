@@ -2955,6 +2955,88 @@
       ]
     },
     {
+      "Route": "Content/images/images.cut4adetjj.zip",
+      "AssetFile": "Content/images/images.zip",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2706513"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-zip-compressed"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FC6tV68fV+pxxkBtd8SOrfUK+xW7af4ZNtClvxZ5IvA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 06:29:16 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cut4adetjj"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-FC6tV68fV+pxxkBtd8SOrfUK+xW7af4ZNtClvxZ5IvA="
+        },
+        {
+          "Name": "label",
+          "Value": "Content/images/images.zip"
+        }
+      ]
+    },
+    {
+      "Route": "Content/images/images.zip",
+      "AssetFile": "Content/images/images.zip",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2706513"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-zip-compressed"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FC6tV68fV+pxxkBtd8SOrfUK+xW7af4ZNtClvxZ5IvA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 06:29:16 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FC6tV68fV+pxxkBtd8SOrfUK+xW7af4ZNtClvxZ5IvA="
+        }
+      ]
+    },
+    {
       "Route": "Content/images/instagram.jpg",
       "AssetFile": "Content/images/instagram.jpg",
       "Selectors": [],

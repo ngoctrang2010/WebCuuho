@@ -34,6 +34,7 @@ wwwroot\Content\images\cuuho3.jpg
 wwwroot\Content\images\cuuho4.jpg
 wwwroot\Content\images\flag-france.png
 wwwroot\Content\images\flag-uk.png
+wwwroot\Content\images\images.zip
 wwwroot\Content\images\instagram.jpg
 wwwroot\Content\images\logo.png
 wwwroot\Content\images\logo2.png

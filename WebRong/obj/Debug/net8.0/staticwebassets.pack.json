@@ -145,6 +145,10 @@
       "PackagePath": "staticwebassets\\Content\\images\\flag-uk.png"
     },
     {
+      "Id": "D:\\WebCuuho\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\images.zip",
+      "PackagePath": "staticwebassets\\Content\\images\\images.zip"
+    },
+    {
       "Id": "D:\\WebCuuho\\WebCuuho\\WebRong\\wwwroot\\Content\\images\\instagram.jpg",
       "PackagePath": "staticwebassets\\Content\\images\\instagram.jpg"
     },

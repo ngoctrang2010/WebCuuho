@@ -88,7 +88,7 @@
               "RelativeDocumentMoniker": "WebRong\\Views\\User\\DetailBaiviet.cshtml",
               "ToolTip": "D:\\WebCuuho\\WebCuuho\\WebRong\\Views\\User\\DetailBaiviet.cshtml",
               "RelativeToolTip": "WebRong\\Views\\User\\DetailBaiviet.cshtml",
-              "ViewState": "AgIAAOQAAAAAAAAAAAAYwPsAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-02-12T07:16:51.637Z",
               "EditorCaption": ""
@@ -101,7 +101,7 @@
               "RelativeDocumentMoniker": "WebRong\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "D:\\WebCuuho\\WebCuuho\\WebRong\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "WebRong\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAABUBAAAAAAAAAAD4vzEBAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAAF0AAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-02-11T15:12:12.241Z",
               "EditorCaption": ""
@@ -116,8 +116,7 @@
               "RelativeToolTip": "WebRong\\Views\\User\\testimonial.cshtml",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAACEAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-12T06:25:33.799Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-12T06:25:33.799Z"
             },
             {
               "$type": "Document",
@@ -155,8 +154,7 @@
               "RelativeToolTip": "WebRong\\Controllers\\AdminController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-12T04:41:05.281Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-12T04:41:05.281Z"
             },
             {
               "$type": "Document",
@@ -168,8 +166,7 @@
               "RelativeToolTip": "WebRong\\Views\\User\\service.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-12T06:25:37.321Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-12T06:25:37.321Z"
             },
             {
               "$type": "Document",
@@ -181,8 +178,7 @@
               "RelativeToolTip": "WebRong\\Views\\User\\project.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAIUAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-12T06:25:40.192Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-12T06:25:40.192Z"
             },
             {
               "$type": "Document",
@@ -194,8 +190,7 @@
               "RelativeToolTip": "WebRong\\Views\\User\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAH0AAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-12T02:10:40.375Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-12T02:10:40.375Z"
             },
             {
               "$type": "Document",
