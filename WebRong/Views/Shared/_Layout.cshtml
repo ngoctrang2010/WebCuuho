@@ -35,6 +35,54 @@
 
 </head>
 
+
+<style>
+	.pinphone {
+		position: fixed;
+		left: 0;
+		 top: 50%;
+		transform: translateY(-50%);
+	}
+
+		.pinphone i:hover {
+			font-size: 45px;
+			transition: 0.5s;
+		}
+
+		.pinphone span:hover {
+			font-size: 30px;
+			transition: 0.5s;
+		}
+
+	.call-button span {
+		animation-name: example;
+		animation-duration: 1s;
+		animation-iteration-count: infinite;
+	}
+
+	@@keyframes example {
+		from
+
+	{
+		color: white;
+	}
+
+	to {
+		color: yellow;
+	}
+
+	}
+
+
+	@@media only screen and (max-width: 440px) {
+		.res
+
+	{
+		width: 49% !important;
+	}
+
+	}
+</style>
 <body>
 	@if (TempData["Message"] != null)
 	{
@@ -163,6 +211,10 @@
 		</style>
 
 		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+		<script src="Scripts/SomeeAdsRemover.js"></script>
+
+
+
 		<script>
 			$(document).ready(function () {
 				$('.nav-item a').on('click', function () {
@@ -361,6 +413,10 @@
 			</div>
 		</div>
 	</div>
+	<a href="tel:0961345247" class="call-button pinphone" onclick="laySoDienThoai(event, this)">
+		<i class="fa fa-phone" aria-hidden="true"></i>
+		<span>0961.345.247</span>
+	</a>
 	<!-- footer section -->
 	<!-- jQery -->
 	<script src="~/content/js/jquery-3.4.1.min.js"></script>

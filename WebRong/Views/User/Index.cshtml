@@ -24,7 +24,7 @@
     .baiviet_container,
     .tintuc_container {
         background-color: #f8f9fa;
-        padding: 30px;
+        /* padding: 30px; */
         border-radius: 10px;
         box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
     }
@@ -83,7 +83,7 @@
         }
 
     .call-button {
-        display: inline-flex;
+        display: flex !important;
         align-items: center;
         background-color: #ff4500; /* Màu cam đỏ nổi bật */
         color: white;
@@ -126,16 +126,29 @@
                                 if (item.IdDichvu == itemDV.IdDichvu)
                                 {
                                     var image = Url.Content("~/content/images/" + item.ImageIndex);
-                                    <div class="col-lg-3 col-md-4 col-sm-6">
+                                    <div class="col-lg-3 col-md-4 col-sm-6 res">
                                         <div class="box">
                                             <div class="detail-box">
-                                                <a href="/User/contact" class="call-button">
+                                                <a href="tel:0961345247" class="call-button" onclick="laySoDienThoai(event, this)">
                                                     <i class="fa fa-phone" aria-hidden="true"></i>
-                                                    <span>0961345247</span>
+                                                    <span>0961.345.247</span>
                                                 </a>
+
+                                                <script>
+                                                    function laySoDienThoai(event, element) {
+                                                        event.preventDefault(); // Ngăn trình duyệt mở trình quay số ngay lập tức
+
+                                                        let soDienThoai = element.querySelector("span").innerText.trim(); // Lấy số từ thẻ <span>
+
+                                                        console.log("Số điện thoại:", soDienThoai);
+
+                                                        // Mở trình quay số sau khi lấy số xong
+                                                        window.location.href = element.href;
+                                                    }
+                                                </script>
                                                 
                                                 <a href="/User/DetailBaiviet/@item.IdBaiviet">
-                                                    <img src="@image" style="width: 200px; height: 150px; object-fit: cover;" alt="Chi tiết bài viết" />
+                                                    <img src="@image" style="width: 100%; height: 150px; object-fit: cover;" alt="Chi tiết bài viết" />
                                                 </a>
 
                                                

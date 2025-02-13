@@ -205,6 +205,10 @@
       "PackagePath": "staticwebassets\\Content\\images\\w3.png"
     },
     {
+      "Id": "D:\\WebCuuho\\WebCuuho\\WebRong\\wwwroot\\Content\\js\\SomeeAdsRemover.js",
+      "PackagePath": "staticwebassets\\Content\\js\\SomeeAdsRemover.js"
+    },
+    {
       "Id": "D:\\WebCuuho\\WebCuuho\\WebRong\\wwwroot\\Content\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\Content\\js\\bootstrap.js"
     },

@@ -193,7 +193,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 10 Feb 2025 02:33:47 GMT"
+          "Value": "Wed, 12 Feb 2025 10:07:54 GMT"
         }
       ],
       "EndpointProperties": [
@@ -238,7 +238,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 10 Feb 2025 02:33:47 GMT"
+          "Value": "Wed, 12 Feb 2025 10:07:54 GMT"
         }
       ],
       "EndpointProperties": [
@@ -4181,6 +4181,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-uwdGBNd8151v+fYyNRKEePMyh9Rsby4Y3N0dgyNWMxo="
+        }
+      ]
+    },
+    {
+      "Route": "Content/js/SomeeAdsRemover.js",
+      "AssetFile": "Content/js/SomeeAdsRemover.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "438"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0SnD+2tXAy6Y8E7+6Oh05kLcehCF9XlpOa2mDcp+OcA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 09:31:07 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0SnD+2tXAy6Y8E7+6Oh05kLcehCF9XlpOa2mDcp+OcA="
+        }
+      ]
+    },
+    {
+      "Route": "Content/js/SomeeAdsRemover.zjavf0mjco.js",
+      "AssetFile": "Content/js/SomeeAdsRemover.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "438"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0SnD+2tXAy6Y8E7+6Oh05kLcehCF9XlpOa2mDcp+OcA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 09:31:07 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zjavf0mjco"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0SnD+2tXAy6Y8E7+6Oh05kLcehCF9XlpOa2mDcp+OcA="
+        },
+        {
+          "Name": "label",
+          "Value": "Content/js/SomeeAdsRemover.js"
         }
       ]
     },
