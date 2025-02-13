@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "1B5LKFBtkyWEV6CGeslvCkPj3WSpf2MD4lwODPRuCtA=",
+  "Hash": "MgXiHB4HVKaIv8CqQVOo0bRYK93//BetTCy+kLTFtbc=",
   "Source": "WebRong",
   "BasePath": "_content/WebRong",
   "Mode": "Default",
@@ -1149,6 +1149,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Content\\js\\jquery-3.4.1.min.js"
+    },
+    {
+      "Identity": "D:\\WebCuuho\\WebCuuho\\WebRong\\wwwroot\\Content\\js\\SomeeAdsRemover.js",
+      "SourceId": "WebRong",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\WebCuuho\\WebCuuho\\WebRong\\wwwroot\\",
+      "BasePath": "_content/WebRong",
+      "RelativePath": "Content/js/SomeeAdsRemover#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zjavf0mjco",
+      "Integrity": "0SnD+2tXAy6Y8E7+6Oh05kLcehCF9XlpOa2mDcp+OcA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Content\\js\\SomeeAdsRemover.js"
     }
   ],
   "Endpoints": [
@@ -1339,7 +1360,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 10 Feb 2025 02:33:47 GMT"
+          "Value": "Wed, 12 Feb 2025 10:07:54 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1384,7 +1405,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 10 Feb 2025 02:33:47 GMT"
+          "Value": "Wed, 12 Feb 2025 10:07:54 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5577,6 +5598,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-KzgTY92gSfLUmlkDeyKLyGXVH/uXfI9cNUfVwo3kjjo="
+        }
+      ]
+    },
+    {
+      "Route": "Content/js/SomeeAdsRemover.js",
+      "AssetFile": "D:\\WebCuuho\\WebCuuho\\WebRong\\wwwroot\\Content\\js\\SomeeAdsRemover.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "438"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0SnD+2tXAy6Y8E7+6Oh05kLcehCF9XlpOa2mDcp+OcA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 09:31:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0SnD+2tXAy6Y8E7+6Oh05kLcehCF9XlpOa2mDcp+OcA="
+        }
+      ]
+    },
+    {
+      "Route": "Content/js/SomeeAdsRemover.zjavf0mjco.js",
+      "AssetFile": "D:\\WebCuuho\\WebCuuho\\WebRong\\wwwroot\\Content\\js\\SomeeAdsRemover.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "438"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0SnD+2tXAy6Y8E7+6Oh05kLcehCF9XlpOa2mDcp+OcA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 09:31:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zjavf0mjco"
+        },
+        {
+          "Name": "label",
+          "Value": "Content/js/SomeeAdsRemover.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0SnD+2tXAy6Y8E7+6Oh05kLcehCF9XlpOa2mDcp+OcA="
         }
       ]
     }

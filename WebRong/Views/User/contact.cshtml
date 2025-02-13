@@ -6,140 +6,51 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 <style>
-    .form-container {
-        width: 100%;
-        max-width: 500px;
-        margin: 0 auto;
-        padding: 20px;
-        background-color: #f9f9f9;
-        border-radius: 8px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    }
-
-        .form-container input,
-        .form-container textarea {
-            width: 100%;
-            padding: 12px;
-            margin: 10px 0;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            box-sizing: border-box;
-            font-size: 16px;
-        }
-
-            .form-container input[type="text"]:focus,
-            .form-container textarea:focus {
-                border-color: #4CAF50;
-                outline: none;
-                box-shadow: 0 0 8px rgba(76, 175, 80, 0.3);
-            }
-
-            .form-container input::placeholder,
-            .form-container textarea::placeholder {
-                color: #aaa;
-            }
-
-        .form-container button {
-            width: 100%;
-            padding: 14px;
-            background-color: #4CAF50;
-            color: white;
-            border: none;
-            border-radius: 5px;
-            font-size: 16px;
-            cursor: pointer;
-            transition: background-color 0.3s ease;
-            height: auto;
-        }
-
-            .form-container button:hover {
-                background-color: #45a049;
-            }
-
-            .form-container button:active {
-                background-color: #387c39;
-            }
-
     .map_container {
         width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
         padding: 20px;
-        height: auto;
     }
 
     .map {
         width: 100%;
-        max-width: 600px; /* Giới hạn chiều rộng */
-        height: 480px;
-        border-radius: 15px; /* Bo tròn góc */
-        overflow: hidden; /* Ẩn phần dư */
-        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Bóng đổ */
+        max-width: 800px; /* Giới hạn chiều rộng tối đa */
+        height: 400px; /* Chiều cao mặc định */
+        border-radius: 12px; /* Bo góc mềm mại */
+        overflow: hidden;
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Bóng đổ nhẹ */
+        transition: transform 0.3s ease-in-out;
     }
 
+        .map:hover {
+            transform: scale(1.02); /* Hiệu ứng zoom nhẹ khi hover */
+        }
+
+        /* Định dạng iframe bên trong bản đồ */
         .map iframe {
             width: 100%;
             height: 100%;
             border: none;
-            border-radius: 15px; /* Đồng bộ bo góc */
+            border-radius: 12px;
         }
 
-    .heading_container {
-        text-align: center;
-        margin-top: 30px; /* Khoảng cách phía trên */
-        margin-bottom: 20px; /* Khoảng cách phía dưới */
+    /* Responsive cho điện thoại */
+
+    .map{
+        height: 300px; /* Giảm chiều cao để vừa với màn hình nhỏ */
     }
-
-        .heading_container h2 {
-            font-size: 32px;
-            font-weight: bold;
-            color: #333; /* Màu chữ tối */
-            text-transform: uppercase; /* Chữ in hoa */
-            letter-spacing: 2px; /* Khoảng cách giữa các chữ */
-            position: relative;
-            display: inline-block;
-            padding-bottom: 10px;
-        }
-
-            .heading_container h2::after {
-                content: "";
-                width: 80px;
-                height: 4px;
-                background-color: #007bff; /* Màu gạch chân */
-                position: absolute;
-                bottom: 0;
-                left: 50%;
-                transform: translateX(-50%);
-                border-radius: 2px;
-            }
+    .map{
+        height: 250px; /* Chiều cao nhỏ hơn cho điện thoại bé */
+    }
 
 
 </style>
 <section class="contact_section layout_padding">
     <div class="container-fluid">
-        <div class="col-lg-4 col-md-5 offset-md-1">
-            <div class="heading_container">
-                <h2>
-                   Liên hệ với chúng tôi
-                </h2>
-            </div>
-        </div>
+        
         <div class="row">
-            <div class="col-lg-4 col-md-5 offset-md-1">
-                <div class="form_container">
-                    <form action="@Url.Action("SubmitContact", "User")" method="post" class="form-container">
-                        <input type="text" name="Ten" placeholder="Tên" required>
-                        <input type="text" name="Diachi" placeholder="Địa chỉ" required>
-                        <input type="text" name="Sdt" placeholder="Số điện thoại" required>
-                        <textarea name="Chude" placeholder="Chủ đề" required></textarea>
-                        <textarea name="Noidung" placeholder="Nội dung" required></textarea>
-                        <input type="hidden" name="Hoanthanh" value="false">
-                        <button type="submit" class="btn btn-primary">Gửi</button>
-                    </form>
-                
-                </div>
-            </div>
             <div class="col-lg-7 col-md-6 px-0">
                 <div class="map_container">
                     <div class="map">
