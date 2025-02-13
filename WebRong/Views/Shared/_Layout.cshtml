@@ -32,7 +32,8 @@
 
 	<!-- Thêm Toastify JS -->
 	<script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
-
+<link rel="stylesheet" href="content/css/owl.carousel.css"></link>
+<link rel="stylesheet" href="content/css/owl.theme.default.css"></link>
 </head>
 
 
@@ -208,10 +209,70 @@
 				background-color: black; /* Màu nền đen */
 				color: white; /* Màu chữ trắng */
 			}
+			.wrap-tieuchi {
+    padding-top: 30px;
+    overflow: hidden;
+}
+.wrap-content {
+    max-width: 1188px;
+    margin: auto;
+    width: calc(100% - 20px);
+}
+.wrap-tieuchi .owl-carousel {
+    width: calc(100% + 10px);
+    margin: 0 -5px;
+}
+.wrap-tieuchi .owl-stage {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-flow: row wrap;
+    -webkit-flex-flow: row wrap;
+}
+.item_tc {
+    padding: 45px 0 7px 0;
+    position: relative;
+    margin: 0 5px;
+    width: calc(100% - 10px);
+}
+.item_tc .img {
+    position: absolute;
+    left: calc(50% - 45px);
+    top: 0px;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background: var(--color-red);
+}
+.item_tc .img img {
+    transition: 1s;
+}
+.item_tc .tttc {
+    height: calc(100% - 52px);
+    box-shadow: 0 0 7px rgb(0 0 0 / 25%);
+    background: #fff;
+    border-radius: 5px;
+    padding: 55px 10px 15px 10px;
+}
+.item_tc h3 {
+    line-height: 1.5;
+    text-align: center;
+    margin-bottom: 4px;
+    font-size: 16px;
+    font-family: 'RB';
+}
+.item_tc .desc {
+    text-align: center;
+    line-height: 20px;
+    min-height: 40px;
+    color: #4d4d4d;
+}
 		</style>
 
 		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-		<script src="Scripts/SomeeAdsRemover.js"></script>
+		<script src="content/js/SomeeAdsRemover.js"></script>
 
 
 
@@ -282,8 +343,58 @@
 		</section>
 		<!-- end slider section -->
 	</div>
-
-	<div>
+<!-- Set up your HTML -->
+<div class="wrap-tieuchi pad-top" bis_skin_checked="1">
+		<div class="wrap-content" bis_skin_checked="1">
+			<div class="owl-page owl-carousel owl-theme owl-loaded owl-drag" data-xsm-items="2:0" data-sm-items="2:0" data-md-items="3:0" data-lg-items="4:0" data-xlg-items="4:0" data-rewind="1" data-autoplay="1" data-loop="0" data-lazyload="0" data-mousedrag="1" data-touchdrag="1" data-smartspeed="500" data-autoplayspeed="3500" data-dots="0" bis_skin_checked="1">
+										
+											
+											
+											
+								<div class="owl-stage-outer" bis_skin_checked="1"><div class="owl-stage" style="transform: translate3d(0px, 0px, 0px); transition: 0.5s; width: 1198px;" bis_skin_checked="1"><div class="owl-item active" style="width: 299.5px;" bis_skin_checked="1"><div class="item_tc" bis_skin_checked="1">
+							<a class="img d-block" title="NHANH CHÓNG">
+								<img class="d-block w-100" src="thumbs/90x90x2/upload/photo/tieuchi02-65430-72500.png"  alt="NHANH CHÓNG">
+							</a>
+							<div class="tttc" bis_skin_checked="1">
+								<h3>
+									NHANH CHÓNG								</h3>
+								<div class="desc text-splist" bis_skin_checked="1">
+									Có mặt tại địa chỉ bạn gửi chỉ sau 10 – 20 phút 								</div>
+							</div>
+						</div></div><div class="owl-item active" style="width: 299.5px;" bis_skin_checked="1"><div class="item_tc" bis_skin_checked="1">
+							<a class="img d-block" title="CHUYÊN NGHIỆP ">
+								<img class="d-block w-100" src="thumbs/90x90x2/upload/photo/tieuchi04-57641-1611.png"  alt="CHUYÊN NGHIỆP ">
+							</a>
+							<div class="tttc" bis_skin_checked="1">
+								<h3>
+									CHUYÊN NGHIỆP 								</h3>
+								<div class="desc text-splist" bis_skin_checked="1">
+									Đầy đủ các xe sàn chuyên chở, cẩu kéo cứu hộ								</div>
+							</div>
+						</div></div><div class="owl-item active" style="width: 299.5px;" bis_skin_checked="1"><div class="item_tc" bis_skin_checked="1">
+							<a class="img d-block" title="GIÁ CẢ HỢP LÝ">
+								<img class="d-block w-100" src="thumbs/90x90x2/upload/photo/tieuchi06-56882-9930.png"  alt="GIÁ CẢ HỢP LÝ">
+							</a>
+							<div class="tttc" bis_skin_checked="1">
+								<h3>
+									GIÁ CẢ HỢP LÝ								</h3>
+								<div class="desc text-splist" bis_skin_checked="1">
+									Cam kết giá cả hợp lý - cạnh tranh 								</div>
+							</div>
+						</div></div><div class="owl-item active" style="width: 299.5px;" bis_skin_checked="1"><div class="item_tc" bis_skin_checked="1">
+							<a class="img d-block" title="HỖ TRỢ NHIỆT TÌNH">
+								<img class="d-block w-100" src="thumbs/90x90x2/upload/photo/tieuchi08-61943-7310.png"  alt="HỖ TRỢ NHIỆT TÌNH">
+							</a>
+							<div class="tttc" bis_skin_checked="1">
+								<h3>
+									HỖ TRỢ NHIỆT TÌNH								</h3>
+								<div class="desc text-splist" bis_skin_checked="1">
+									Hotline hỗ trợ 24/7 giải đáp mọi thắc mắc khách hàng								</div>
+							</div>
+						</div></div></div></div><div class="owl-nav disabled" bis_skin_checked="1"><button type="button" role="presentation" class="owl-prev"></button><button type="button" role="presentation" class="owl-next"></button></div><div class="owl-dots disabled" bis_skin_checked="1"></div></div>
+		</div>
+	</div>
+		<div>
 		@RenderBody()
 	</div>
 
@@ -428,6 +539,16 @@
 	<!-- owl slider -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
 	</script>
+	<script src="content/js/owl.carousel.js"></script>
+<script>
+	$(document).ready(function(){
+  $(".owl-carousel").owlCarousel({
+	loop:true,
+	autoplayTimeout:1000,
+	autoplay:true
+  });
+});
+</script>
 	<!--  OwlCarousel 2 - Filter -->
 	<script src="https://huynhhuynh.github.io/owlcarousel2-filter/dist/owlcarousel2-filter.min.js"></script>
 	<!-- custom js -->
