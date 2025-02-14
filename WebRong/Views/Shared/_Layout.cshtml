@@ -44,7 +44,6 @@
 		left: 0;
 		 top: 50%;
 		transform: translateY(-50%);
-		    background-color: #ff4500;
 	}
 
 		.pinphone i:hover {
@@ -62,7 +61,31 @@
 		animation-duration: 1s;
 		animation-iteration-count: infinite;
 	}
+.call-button {
+        display: flex !important;
+        align-items: center;
+        background-color: #ff4500; /* Màu cam đỏ nổi bật */
+        color: white;
+        padding: 8px 14px;
+        border-radius: 25px; /* Bo góc */
+        font-size: 18px;
+        font-weight: bold;
+        text-decoration: none;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        transition: all 0.3s ease-in-out;
+        margin-top: -12px;
+    }
 
+        .call-button i {
+            margin-right: 8px;
+            font-size: 22px;
+        }
+
+        .call-button:hover {
+            background-color: #cc0000; /* Đổi màu cam nhạt khi hover */
+            box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.3);
+            transform: scale(1.05);
+        }
 	@@keyframes example {
 		from
 
@@ -274,7 +297,7 @@
 		</style>
 
 		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-		<script src="content/js/SomeeAdsRemover.js"></script>
+		<script src="/content/js/SomeeAdsRemover.js"></script>
 
 
 
@@ -296,8 +319,7 @@
 								<div class="col-md-10 mx-auto">
 									<div class="detail-box">
 										<h1>
-											CỨU HỘ 24/7 <br>
-											NHANH CHÓNG - CHUYÊN NGHIỆP <br>
+											
 										</h1>
 										<div class="btn-box">
 											<a href="/User/contact" class="btn1">
@@ -318,9 +340,7 @@
 								<div class="col-md-10 mx-auto">
 									<div class="detail-box">
 										<h1>
-											SỬA ĐỘNG CƠ, HỘP SỐ, PHANH, ĐIỀU HÒA<br>
-											THAY DẦU, BẢO DƯỠNG, SỬA THÂN VỎ, THAY LỐP<br>
-											LINH KIỆN CHÍNH HÃNG, BẢO HÀNH DÀI HẠN
+											
 										</h1>
 										<div class="btn-box">
 											<a href="/User/contact" class="btn1">
