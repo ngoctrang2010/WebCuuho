@@ -17,51 +17,53 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = WebRong
 build_property.RootNamespace = WebRong
-build_property.ProjectDir = E:\User\NghiVu\WebCuuho\WebRong\
+build_property.ProjectDir = D:\WebCuuho\WebRong\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = E:\User\NghiVu\WebCuuho\WebRong
+build_property.MSBuildProjectDirectory = D:\WebCuuho\WebRong
 build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
 
-[E:/User/NghiVu/WebCuuho/WebRong/Views/Admin/Index.cshtml]
+[D:/WebCuuho/WebRong/Views/Admin/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/User/NghiVu/WebCuuho/WebRong/Views/Shared/_Layout.cshtml]
+[D:/WebCuuho/WebRong/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/User/NghiVu/WebCuuho/WebRong/Views/Shared/_ViewStart.cshtml]
+[D:/WebCuuho/WebRong/Views/Shared/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WaWV3U3RhcnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/User/NghiVu/WebCuuho/WebRong/Views/User/about.cshtml]
+[D:/WebCuuho/WebRong/Views/User/about.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxhYm91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/User/NghiVu/WebCuuho/WebRong/Views/User/contact.cshtml]
+[D:/WebCuuho/WebRong/Views/User/contact.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxjb250YWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/User/NghiVu/WebCuuho/WebRong/Views/User/DetailBaiviet.cshtml]
+[D:/WebCuuho/WebRong/Views/User/DetailBaiviet.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxEZXRhaWxCYWl2aWV0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/User/NghiVu/WebCuuho/WebRong/Views/User/Index.cshtml]
+[D:/WebCuuho/WebRong/Views/User/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/User/NghiVu/WebCuuho/WebRong/Views/User/project.cshtml]
+[D:/WebCuuho/WebRong/Views/User/project.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxwcm9qZWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/User/NghiVu/WebCuuho/WebRong/Views/User/service.cshtml]
+[D:/WebCuuho/WebRong/Views/User/service.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxzZXJ2aWNlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/User/NghiVu/WebCuuho/WebRong/Views/User/testimonial.cshtml]
+[D:/WebCuuho/WebRong/Views/User/testimonial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclx0ZXN0aW1vbmlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

@@ -321,14 +321,7 @@
 										<h1>
 											
 										</h1>
-										<div class="btn-box">
-											<a href="/User/contact" class="btn1">
-												Liên hệ
-											</a>
-											<a href="/User/about" class="btn2">
-												Thông tin
-											</a>
-										</div>
+									
 									</div>
 								</div>
 							</div>
@@ -342,21 +335,14 @@
 										<h1>
 											
 										</h1>
-										<div class="btn-box">
-											<a href="/User/contact" class="btn1">
-												Liên hệ
-											</a>
-											<a href="/User/about" class="btn2">
-												Thông tin
-											</a>
-										</div>
+								
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-				<ol class="carousel-indicators">
+						<ol class="carousel-indicators" style="margin-left: 25%;">
 					<li data-target="#customCarousel1" data-slide-to="0" class="active"></li>
 					<li data-target="#customCarousel1" data-slide-to="1"></li>
 				</ol>
@@ -369,13 +355,10 @@
 <div class="wrap-tieuchi pad-top" bis_skin_checked="1">
 		<div class="wrap-content" bis_skin_checked="1">
 			<div class="owl-page owl-carousel owl-theme owl-loaded owl-drag" data-xsm-items="2:0" data-sm-items="2:0" data-md-items="3:0" data-lg-items="4:0" data-xlg-items="4:0" data-rewind="1" data-autoplay="1" data-loop="0" data-lazyload="0" data-mousedrag="1" data-touchdrag="1" data-smartspeed="500" data-autoplayspeed="3500" data-dots="0" bis_skin_checked="1">
-										
-											
-											
-											
+							
 								<div class="owl-stage-outer" bis_skin_checked="1"><div class="owl-stage" style="transform: translate3d(0px, 0px, 0px); transition: 0.5s; width: 1198px;" bis_skin_checked="1"><div class="owl-item active" style="width: 299.5px;" bis_skin_checked="1"><div class="item_tc" bis_skin_checked="1">
 							<a class="img d-block" title="NHANH CHÓNG">
-								<img class="d-block w-100" src="thumbs/90x90x2/upload/photo/tieuchi02-65430-72500.png"  alt="NHANH CHÓNG">
+											<img class="d-block w-100" src="/content/images/nhanhchong.png" alt="NHANH CHÓNG">
 							</a>
 							<div class="tttc" bis_skin_checked="1">
 								<h3>
@@ -385,7 +368,7 @@
 							</div>
 						</div></div><div class="owl-item active" style="width: 299.5px;" bis_skin_checked="1"><div class="item_tc" bis_skin_checked="1">
 							<a class="img d-block" title="CHUYÊN NGHIỆP ">
-								<img class="d-block w-100" src="thumbs/90x90x2/upload/photo/tieuchi04-57641-1611.png"  alt="CHUYÊN NGHIỆP ">
+											<img class="d-block w-100" src="/content/images/chuyennghiep.png" alt="CHUYÊN NGHIỆP ">
 							</a>
 							<div class="tttc" bis_skin_checked="1">
 								<h3>
@@ -395,7 +378,7 @@
 							</div>
 						</div></div><div class="owl-item active" style="width: 299.5px;" bis_skin_checked="1"><div class="item_tc" bis_skin_checked="1">
 							<a class="img d-block" title="GIÁ CẢ HỢP LÝ">
-								<img class="d-block w-100" src="thumbs/90x90x2/upload/photo/tieuchi06-56882-9930.png"  alt="GIÁ CẢ HỢP LÝ">
+											<img class="d-block w-100" src="/content/images/giaca1.png" alt="GIÁ CẢ HỢP LÝ">
 							</a>
 							<div class="tttc" bis_skin_checked="1">
 								<h3>
@@ -405,7 +388,7 @@
 							</div>
 						</div></div><div class="owl-item active" style="width: 299.5px;" bis_skin_checked="1"><div class="item_tc" bis_skin_checked="1">
 							<a class="img d-block" title="HỖ TRỢ NHIỆT TÌNH">
-								<img class="d-block w-100" src="thumbs/90x90x2/upload/photo/tieuchi08-61943-7310.png"  alt="HỖ TRỢ NHIỆT TÌNH">
+											<img class="d-block w-100" src="/content/images/hotro.png" alt="HỖ TRỢ NHIỆT TÌNH">
 							</a>
 							<div class="tttc" bis_skin_checked="1">
 								<h3>
@@ -567,7 +550,21 @@
   $(".owl-carousel").owlCarousel({
 	loop:true,
 	autoplayTimeout:1000,
-	autoplay:true
+	autoplay:true,
+					responsive : {
+					// breakpoint from 0 up
+					0 : {
+										items:2
+					},
+					// breakpoint from 480 up
+					480 : {
+										items:3
+					},
+					// breakpoint from 768 up
+					768 : {
+										items:4
+					}
+				}
   });
 });
 </script>
