@@ -3,28 +3,16 @@
   "WorkspaceRootPath": "D:\\WebCuuho\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B2A2B28B-06B3-42D3-9592-5DDC5F25BBBE}|WebRong\\WebRong.csproj|d:\\webcuuho\\webrong\\webrong.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B2A2B28B-06B3-42D3-9592-5DDC5F25BBBE}|WebRong\\WebRong.csproj|solutionrelative:webrong\\webrong.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B2A2B28B-06B3-42D3-9592-5DDC5F25BBBE}|WebRong\\WebRong.csproj|d:\\webcuuho\\webrong\\views\\user\\detailbaiviet.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B2A2B28B-06B3-42D3-9592-5DDC5F25BBBE}|WebRong\\WebRong.csproj|solutionrelative:webrong\\views\\user\\detailbaiviet.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B2A2B28B-06B3-42D3-9592-5DDC5F25BBBE}|WebRong\\WebRong.csproj|d:\\webcuuho\\webrong\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B2A2B28B-06B3-42D3-9592-5DDC5F25BBBE}|WebRong\\WebRong.csproj|solutionrelative:webrong\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2A2B28B-06B3-42D3-9592-5DDC5F25BBBE}|WebRong\\WebRong.csproj|d:\\webcuuho\\webrong\\wwwroot\\content\\js\\someeadsremover.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{B2A2B28B-06B3-42D3-9592-5DDC5F25BBBE}|WebRong\\WebRong.csproj|solutionrelative:webrong\\wwwroot\\content\\js\\someeadsremover.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2A2B28B-06B3-42D3-9592-5DDC5F25BBBE}|WebRong\\WebRong.csproj|d:\\webcuuho\\webrong\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2A2B28B-06B3-42D3-9592-5DDC5F25BBBE}|WebRong\\WebRong.csproj|solutionrelative:webrong\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2A2B28B-06B3-42D3-9592-5DDC5F25BBBE}|WebRong\\WebRong.csproj|d:\\webcuuho\\webrong\\views\\shared\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B2A2B28B-06B3-42D3-9592-5DDC5F25BBBE}|WebRong\\WebRong.csproj|solutionrelative:webrong\\views\\shared\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2A2B28B-06B3-42D3-9592-5DDC5F25BBBE}|WebRong\\WebRong.csproj|d:\\webcuuho\\webrong\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B2A2B28B-06B3-42D3-9592-5DDC5F25BBBE}|WebRong\\WebRong.csproj|solutionrelative:webrong\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,84 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SomeeAdsRemover.js",
-              "DocumentMoniker": "D:\\WebCuuho\\WebRong\\wwwroot\\Content\\js\\SomeeAdsRemover.js",
-              "RelativeDocumentMoniker": "WebRong\\wwwroot\\Content\\js\\SomeeAdsRemover.js",
-              "ToolTip": "D:\\WebCuuho\\WebRong\\wwwroot\\Content\\js\\SomeeAdsRemover.js",
-              "RelativeToolTip": "WebRong\\wwwroot\\Content\\js\\SomeeAdsRemover.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-02-15T04:17:14.7Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\WebCuuho\\WebRong\\Program.cs",
-              "RelativeDocumentMoniker": "WebRong\\Program.cs",
-              "ToolTip": "D:\\WebCuuho\\WebRong\\Program.cs",
-              "RelativeToolTip": "WebRong\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-15T04:12:24.29Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "D:\\WebCuuho\\WebRong\\Views\\Shared\\_ViewStart.cshtml",
-              "RelativeDocumentMoniker": "WebRong\\Views\\Shared\\_ViewStart.cshtml",
-              "ToolTip": "D:\\WebCuuho\\WebRong\\Views\\Shared\\_ViewStart.cshtml",
-              "RelativeToolTip": "WebRong\\Views\\Shared\\_ViewStart.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-15T04:12:11.931Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "DetailBaiviet.cshtml",
-              "DocumentMoniker": "D:\\WebCuuho\\WebRong\\Views\\User\\DetailBaiviet.cshtml",
-              "RelativeDocumentMoniker": "WebRong\\Views\\User\\DetailBaiviet.cshtml",
-              "ToolTip": "D:\\WebCuuho\\WebRong\\Views\\User\\DetailBaiviet.cshtml",
-              "RelativeToolTip": "WebRong\\Views\\User\\DetailBaiviet.cshtml",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-15T04:07:14.139Z",
+              "Title": "WebRong",
+              "DocumentMoniker": "D:\\WebCuuho\\WebRong\\WebRong.csproj",
+              "RelativeDocumentMoniker": "WebRong\\WebRong.csproj",
+              "ToolTip": "D:\\WebCuuho\\WebRong\\WebRong.csproj",
+              "RelativeToolTip": "WebRong\\WebRong.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-27T03:40:35.541Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "DetailBaiviet.cshtml",
+              "DocumentMoniker": "D:\\WebCuuho\\WebRong\\Views\\User\\DetailBaiviet.cshtml",
+              "RelativeDocumentMoniker": "WebRong\\Views\\User\\DetailBaiviet.cshtml",
+              "ToolTip": "D:\\WebCuuho\\WebRong\\Views\\User\\DetailBaiviet.cshtml",
+              "RelativeToolTip": "WebRong\\Views\\User\\DetailBaiviet.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAkAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-27T02:56:10.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\WebCuuho\\WebRong\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "WebRong\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "D:\\WebCuuho\\WebRong\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "WebRong\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAABkBAAAAAAAAAAArwCoBAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-15T02:15:55.361Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\WebCuuho\\WebRong\\Views\\User\\Index.cshtml",
-              "RelativeDocumentMoniker": "WebRong\\Views\\User\\Index.cshtml",
-              "ToolTip": "D:\\WebCuuho\\WebRong\\Views\\User\\Index.cshtml",
-              "RelativeToolTip": "WebRong\\Views\\User\\Index.cshtml",
-              "ViewState": "AgIAAHIAAAAAAAAAAAAAAAcAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-15T00:57:01.603Z",
+              "WhenOpened": "2025-02-27T02:31:31.545Z",
               "EditorCaption": ""
             }
           ]

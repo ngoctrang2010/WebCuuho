@@ -1,5 +1,7 @@
 wwwroot\Content\css\bootstrap.css
 wwwroot\Content\css\font-awesome.min.css
+wwwroot\Content\css\owl.carousel.css
+wwwroot\Content\css\owl.theme.default.css
 wwwroot\Content\css\responsive.css
 wwwroot\Content\css\style.css
 wwwroot\Content\css\style.css.map
@@ -15,6 +17,7 @@ wwwroot\Content\images\ch5.jpg
 wwwroot\Content\images\ch6.jpg
 wwwroot\Content\images\ch7.jpg
 wwwroot\Content\images\ch8.jpg
+wwwroot\Content\images\chuyennghiep.png
 wwwroot\Content\images\client.jpg
 wwwroot\Content\images\client-bg.jpg
 wwwroot\Content\images\cuuho1.jpg
@@ -34,17 +37,22 @@ wwwroot\Content\images\cuuho3.jpg
 wwwroot\Content\images\cuuho4.jpg
 wwwroot\Content\images\flag-france.png
 wwwroot\Content\images\flag-uk.png
+wwwroot\Content\images\giaca.png
+wwwroot\Content\images\giaca1.png
+wwwroot\Content\images\hotro.png
 wwwroot\Content\images\images.zip
 wwwroot\Content\images\instagram.jpg
 wwwroot\Content\images\logo.png
 wwwroot\Content\images\logo2.png
 wwwroot\Content\images\logoa.jpg
+wwwroot\Content\images\nhanhchong.png
 wwwroot\Content\images\project1.jpg
 wwwroot\Content\images\project2.jpg
 wwwroot\Content\images\s1.png
 wwwroot\Content\images\s2.png
 wwwroot\Content\images\s3.png
 wwwroot\Content\images\s4.png
+wwwroot\Content\images\slider.png
 wwwroot\Content\images\slider-bg.jpg
 wwwroot\Content\images\w1.png
 wwwroot\Content\images\w2.png
@@ -52,4 +60,5 @@ wwwroot\Content\images\w3.png
 wwwroot\Content\js\bootstrap.js
 wwwroot\Content\js\custom.js
 wwwroot\Content\js\jquery-3.4.1.min.js
+wwwroot\Content\js\owl.carousel.js
 wwwroot\Content\js\SomeeAdsRemover.js
